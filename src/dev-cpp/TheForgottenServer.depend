@@ -1,0 +1,4057 @@
+# depslib dependency file v1.0
+1649082767 source:c:\users\kyogron\documents\backup04-04\src\actions.cpp
+	"otpch.h"
+	"const.h"
+	"actions.h"
+	"tools.h"
+	"player.h"
+	"monster.h"
+	"npc.h"
+	"item.h"
+	"container.h"
+	"game.h"
+	"configmanager.h"
+	"combat.h"
+	"spells.h"
+	"house.h"
+	"beds.h"
+	<libxml/xmlmemory.h>
+	<libxml/parser.h>
+
+1649082772 c:\users\kyogron\documents\backup04-04\src\otpch.h
+	<winerror.h>
+	<libxml/xmlmemory.h>
+	<libxml/parser.h>
+	<libxml/threads.h>
+	<boost/config.hpp>
+	<boost/function.hpp>
+	<boost/bind.hpp>
+	<boost/regex.hpp>
+	<boost/tokenizer.hpp>
+	"thing.h"
+
+1649082779 c:\users\kyogron\documents\backup04-04\src\thing.h
+	"position.h"
+
+1649082766 c:\users\kyogron\documents\backup04-04\src\position.h
+	<stdlib.h>
+	<cmath>
+	<iostream>
+	<vector>
+
+1649082779 c:\users\kyogron\documents\backup04-04\src\const.h
+	"definitions.h"
+
+1649082781 c:\users\kyogron\documents\backup04-04\src\definitions.h
+	"exception.h"
+	<cstring>
+
+1649082784 c:\users\kyogron\documents\backup04-04\src\exception.h
+	"otsystem.h"
+
+1649082774 c:\users\kyogron\documents\backup04-04\src\otsystem.h
+	"definitions.h"
+	<string>
+	<algorithm>
+	<bitset>
+	<queue>
+	<set>
+	<vector>
+	<list>
+	<map>
+	<limits>
+	<boost/utility.hpp>
+	<boost/asio.hpp>
+	<boost/thread.hpp>
+	<boost/foreach.hpp>
+	<boost/shared_ptr.hpp>
+	<stddef.h>
+	<stdlib.h>
+	<stdint.h>
+	<time.h>
+	<assert.h>
+	<windows.h>
+	<sys/timeb.h>
+	<sys/timeb.h>
+	<sys/types.h>
+	<sys/socket.h>
+	<unistd.h>
+	<time.h>
+	<netdb.h>
+	<errno.h>
+	<arpa/inet.h>
+	<netinet/in.h>
+
+1649082781 c:\users\kyogron\documents\backup04-04\src\actions.h
+	"baseevents.h"
+	"luascript.h"
+	"thing.h"
+
+1649082763 c:\users\kyogron\documents\backup04-04\src\baseevents.h
+	"otsystem.h"
+	"luascript.h"
+	<libxml/parser.h>
+
+1649082765 c:\users\kyogron\documents\backup04-04\src\luascript.h
+	"otsystem.h"
+	"lua.h"
+	"lualib.h"
+	"lauxlib.h"
+	"database.h"
+	"position.h"
+
+1649082771 c:\users\kyogron\documents\backup04-04\src\database.h
+	"otsystem.h"
+	"enums.h"
+	<sstream>
+	"databasemysql.h"
+	"databasesqlite.h"
+	"databaseodbc.h"
+	"databasepgsql.h"
+
+1649082775 c:\users\kyogron\documents\backup04-04\src\enums.h
+	<string>
+	<list>
+
+1649082779 c:\users\kyogron\documents\backup04-04\src\databasemysql.h
+	<winsock2.h>
+	<mysql.h>
+	<mysql/mysql.h>
+	<sstream>
+	<map>
+
+1649082774 c:\users\kyogron\documents\backup04-04\src\databasesqlite.h
+	<sqlite3.h>
+	<sstream>
+	<map>
+
+1649082770 c:\users\kyogron\documents\backup04-04\src\databaseodbc.h
+	<windows.h>
+	<sqltypes.h>
+	<sql.h>
+	<sqlext.h>
+
+1649082747 c:\users\kyogron\documents\backup04-04\src\databasepgsql.h
+	<postgresql/libpq-fe.h>
+
+1649082779 c:\users\kyogron\documents\backup04-04\src\tools.h
+	"otsystem.h"
+	"enums.h"
+	"const.h"
+	<libxml/parser.h>
+	<boost/tokenizer.hpp>
+	"position.h"
+
+1649082779 c:\users\kyogron\documents\backup04-04\src\player.h
+	"otsystem.h"
+	"enums.h"
+	"creature.h"
+	"cylinder.h"
+	"container.h"
+	"depot.h"
+	"outfit.h"
+	"vocation.h"
+	"group.h"
+	"protocolgame.h"
+	"ioguild.h"
+	"party.h"
+	"npc.h"
+
+1649082763 c:\users\kyogron\documents\backup04-04\src\creature.h
+	"otsystem.h"
+	"templates.h"
+	<boost/any.hpp>
+	"const.h"
+	"enums.h"
+	"map.h"
+	"condition.h"
+	"creatureevent.h"
+
+1649082779 c:\users\kyogron\documents\backup04-04\src\templates.h
+	"otsystem.h"
+
+1649082779 c:\users\kyogron\documents\backup04-04\src\map.h
+	"tools.h"
+	"fileloader.h"
+	"position.h"
+	"waypoints.h"
+	"tile.h"
+
+1649082786 c:\users\kyogron\documents\backup04-04\src\fileloader.h
+	"otsystem.h"
+
+1649082770 c:\users\kyogron\documents\backup04-04\src\waypoints.h
+	"otsystem.h"
+
+1649082779 c:\users\kyogron\documents\backup04-04\src\tile.h
+	<boost/shared_ptr.hpp>
+	"cylinder.h"
+	"item.h"
+
+1649082763 c:\users\kyogron\documents\backup04-04\src\cylinder.h
+	"otsystem.h"
+
+1649082753 c:\users\kyogron\documents\backup04-04\src\item.h
+	"otsystem.h"
+	<libxml/xmlmemory.h>
+	<libxml/parser.h>
+	"thing.h"
+	"itemattributes.h"
+	"items.h"
+	"raids.h"
+
+1649082748 c:\users\kyogron\documents\backup04-04\src\itemattributes.h
+	"otsystem.h"
+	<boost/any.hpp>
+
+1649082757 c:\users\kyogron\documents\backup04-04\src\items.h
+	"otsystem.h"
+	"itemloader.h"
+	"const.h"
+	"enums.h"
+	"position.h"
+	<libxml/parser.h>
+
+1649082766 c:\users\kyogron\documents\backup04-04\src\itemloader.h
+	"fileloader.h"
+
+1649082780 c:\users\kyogron\documents\backup04-04\src\raids.h
+	"otsystem.h"
+	"const.h"
+	<libxml/xmlmemory.h>
+	<libxml/parser.h>
+	"baseevents.h"
+	"position.h"
+	"tools.h"
+
+1649082778 c:\users\kyogron\documents\backup04-04\src\condition.h
+	"otsystem.h"
+	"const.h"
+	"enums.h"
+	<libxml/xmlmemory.h>
+	<libxml/parser.h>
+	"fileloader.h"
+
+1649082769 c:\users\kyogron\documents\backup04-04\src\creatureevent.h
+	"enums.h"
+	"baseevents.h"
+	"tile.h"
+
+1649082773 c:\users\kyogron\documents\backup04-04\src\container.h
+	"otsystem.h"
+	"cylinder.h"
+	"item.h"
+
+1649082776 c:\users\kyogron\documents\backup04-04\src\depot.h
+	"container.h"
+
+1649082752 c:\users\kyogron\documents\backup04-04\src\outfit.h
+	"otsystem.h"
+	"enums.h"
+
+1649082749 c:\users\kyogron\documents\backup04-04\src\vocation.h
+	"otsystem.h"
+	"enums.h"
+
+1649082771 c:\users\kyogron\documents\backup04-04\src\group.h
+	"otsystem.h"
+
+1649082753 c:\users\kyogron\documents\backup04-04\src\protocolgame.h
+	"otsystem.h"
+	"enums.h"
+	"protocol.h"
+	"creature.h"
+
+1649082769 c:\users\kyogron\documents\backup04-04\src\protocol.h
+	"otsystem.h"
+	"rsa.h"
+
+1649082764 c:\users\kyogron\documents\backup04-04\src\rsa.h
+	"otsystem.h"
+	"gmp.h"
+
+1649082764 c:\users\kyogron\documents\backup04-04\src\ioguild.h
+	"otsystem.h"
+	"player.h"
+
+1649082770 c:\users\kyogron\documents\backup04-04\src\party.h
+	"player.h"
+
+1649082752 c:\users\kyogron\documents\backup04-04\src\npc.h
+	"templates.h"
+	"const.h"
+	"creature.h"
+	"luascript.h"
+
+1649082756 c:\users\kyogron\documents\backup04-04\src\monster.h
+	"monsters.h"
+	"raids.h"
+	"tile.h"
+
+1649082767 c:\users\kyogron\documents\backup04-04\src\monsters.h
+	"otsystem.h"
+	"creature.h"
+
+1649082768 c:\users\kyogron\documents\backup04-04\src\game.h
+	"otsystem.h"
+	"enums.h"
+	"templates.h"
+	"scheduler.h"
+	"map.h"
+	"spawn.h"
+	"item.h"
+	"player.h"
+	"npc.h"
+	"monster.h"
+
+1649082770 c:\users\kyogron\documents\backup04-04\src\scheduler.h
+	"otsystem.h"
+	"tasks.h"
+
+1649082772 c:\users\kyogron\documents\backup04-04\src\tasks.h
+	"otsystem.h"
+	<boost/function.hpp>
+
+1649082782 c:\users\kyogron\documents\backup04-04\src\spawn.h
+	"otsystem.h"
+	"templates.h"
+	"position.h"
+	"tile.h"
+	"monster.h"
+
+1649082785 c:\users\kyogron\documents\backup04-04\src\configmanager.h
+	"luascript.h"
+
+1649082782 c:\users\kyogron\documents\backup04-04\src\combat.h
+	"otsystem.h"
+	"baseevents.h"
+	"condition.h"
+	"map.h"
+
+1649082769 c:\users\kyogron\documents\backup04-04\src\spells.h
+	"otsystem.h"
+	"enums.h"
+	"player.h"
+	"luascript.h"
+	"baseevents.h"
+	"actions.h"
+	"talkaction.h"
+
+1649082757 c:\users\kyogron\documents\backup04-04\src\talkaction.h
+	"otsystem.h"
+	"enums.h"
+	"player.h"
+	"tools.h"
+	"luascript.h"
+	"baseevents.h"
+
+1649082763 c:\users\kyogron\documents\backup04-04\src\house.h
+	"otsystem.h"
+	<boost/regex.hpp>
+	<boost/tr1/unordered_set.hpp>
+	"position.h"
+	"housetile.h"
+	"player.h"
+
+1649082755 c:\users\kyogron\documents\backup04-04\src\housetile.h
+	"tile.h"
+
+1649082764 c:\users\kyogron\documents\backup04-04\src\beds.h
+	"item.h"
+
+1649082780 source:c:\users\kyogron\documents\backup04-04\src\admin.cpp
+	"otpch.h"
+	<iostream>
+	"admin.h"
+	"rsa.h"
+	"tools.h"
+	"configmanager.h"
+	"game.h"
+	"connection.h"
+	"outputmessage.h"
+	"networkmessage.h"
+	"house.h"
+	"town.h"
+	"iologindata.h"
+
+1649082755 c:\users\kyogron\documents\backup04-04\src\admin.h
+	"otsystem.h"
+	"textlogger.h"
+	"player.h"
+
+1649082768 c:\users\kyogron\documents\backup04-04\src\textlogger.h
+	"otsystem.h"
+	<ostream>
+	<fstream>
+
+1649082773 c:\users\kyogron\documents\backup04-04\src\connection.h
+	"otsystem.h"
+	"networkmessage.h"
+	<boost/utility.hpp>
+	<boost/enable_shared_from_this.hpp>
+
+1649082762 c:\users\kyogron\documents\backup04-04\src\networkmessage.h
+	"otsystem.h"
+	"const.h"
+
+1649082747 c:\users\kyogron\documents\backup04-04\src\outputmessage.h
+	"otsystem.h"
+	"tools.h"
+	"connection.h"
+	"networkmessage.h"
+	<iostream>
+	<sstream>
+
+1649082783 c:\users\kyogron\documents\backup04-04\src\town.h
+	"otsystem.h"
+
+1649082772 c:\users\kyogron\documents\backup04-04\src\iologindata.h
+	"otsystem.h"
+	"database.h"
+	"creature.h"
+	"player.h"
+	"account.h"
+	"group.h"
+
+1649082756 c:\users\kyogron\documents\backup04-04\src\account.h
+	"otsystem.h"
+	"gameservers.h"
+
+1649082769 c:\users\kyogron\documents\backup04-04\src\gameservers.h
+	"otsystem.h"
+	"resources.h"
+	"const.h"
+
+1649082776 c:\users\kyogron\documents\backup04-04\src\resources.h
+	"definitions.h"
+
+1649082771 source:c:\users\kyogron\documents\backup04-04\src\allocator.cpp
+	"otpch.h"
+	"allocator.h"
+
+1649082763 c:\users\kyogron\documents\backup04-04\src\allocator.h
+	"otsystem.h"
+	<boost/pool/pool.hpp>
+	<memory>
+	<cstdlib>
+	<fstream>
+
+1649082786 source:c:\users\kyogron\documents\backup04-04\src\area.cpp
+	"otpch.h"
+	"const.h"
+	"area.h"
+	"tools.h"
+	"game.h"
+	"configmanager.h"
+	"creature.h"
+	"player.h"
+
+1649082753 c:\users\kyogron\documents\backup04-04\src\area.h
+
+1649082774 source:c:\users\kyogron\documents\backup04-04\src\baseevents.cpp
+	"otpch.h"
+	<libxml/xmlmemory.h>
+	"baseevents.h"
+	"tools.h"
+
+1649082771 source:c:\users\kyogron\documents\backup04-04\src\beds.cpp
+	"otpch.h"
+	"beds.h"
+	"house.h"
+	"player.h"
+	"iologindata.h"
+	"game.h"
+	"configmanager.h"
+
+1649082771 source:c:\users\kyogron\documents\backup04-04\src\chat.cpp
+	"otpch.h"
+	"chat.h"
+	"player.h"
+	"iologindata.h"
+	"configmanager.h"
+	"game.h"
+
+1649082757 c:\users\kyogron\documents\backup04-04\src\chat.h
+	"otsystem.h"
+	<fstream>
+	"const.h"
+	"party.h"
+
+1649082757 source:c:\users\kyogron\documents\backup04-04\src\combat.cpp
+	"otpch.h"
+	"const.h"
+	"combat.h"
+	"tools.h"
+	"game.h"
+	"configmanager.h"
+	"creature.h"
+	"player.h"
+	"weapons.h"
+
+1649082755 c:\users\kyogron\documents\backup04-04\src\weapons.h
+	"otsystem.h"
+	"const.h"
+	"combat.h"
+	"baseevents.h"
+	"luascript.h"
+	"player.h"
+	"item.h"
+
+1649082778 source:c:\users\kyogron\documents\backup04-04\src\condition.cpp
+	"otpch.h"
+	"condition.h"
+	"tools.h"
+	"game.h"
+	"creature.h"
+	"combat.h"
+
+1649082775 source:c:\users\kyogron\documents\backup04-04\src\configmanager.cpp
+	"otpch.h"
+	<iostream>
+	"configmanager.h"
+	"tools.h"
+
+1649082780 source:c:\users\kyogron\documents\backup04-04\src\connection.cpp
+	"otpch.h"
+	"connection.h"
+	"protocol.h"
+	"protocolgame.h"
+	"protocolold.h"
+	"admin.h"
+	"status.h"
+	"outputmessage.h"
+	"scheduler.h"
+	"server.h"
+	"configmanager.h"
+	"tools.h"
+	"textlogger.h"
+
+1649082764 c:\users\kyogron\documents\backup04-04\src\protocolold.h
+	"protocol.h"
+
+1649082768 c:\users\kyogron\documents\backup04-04\src\status.h
+	"otsystem.h"
+	"protocol.h"
+
+1649082775 c:\users\kyogron\documents\backup04-04\src\server.h
+	"otsystem.h"
+	<boost/enable_shared_from_this.hpp>
+
+1649082770 source:c:\users\kyogron\documents\backup04-04\src\container.cpp
+	"otpch.h"
+	"container.h"
+	"game.h"
+	"iomap.h"
+	"player.h"
+
+1649082764 c:\users\kyogron\documents\backup04-04\src\iomap.h
+	"status.h"
+	"map.h"
+	"house.h"
+	"spawn.h"
+	"item.h"
+
+1649082761 source:c:\users\kyogron\documents\backup04-04\src\creature.cpp
+	"otpch.h"
+	"creature.h"
+	"player.h"
+	"npc.h"
+	"monster.h"
+	"condition.h"
+	"combat.h"
+	"container.h"
+	"exception.h"
+	"configmanager.h"
+	"game.h"
+
+1649082781 source:c:\users\kyogron\documents\backup04-04\src\creatureevent.cpp
+	"otpch.h"
+	<sstream>
+	"creatureevent.h"
+	"player.h"
+	"tools.h"
+
+1649082772 source:c:\users\kyogron\documents\backup04-04\src\cylinder.cpp
+	"otpch.h"
+	"cylinder.h"
+
+1649082752 source:c:\users\kyogron\documents\backup04-04\src\database.cpp
+	"otpch.h"
+	<string>
+	"database.h"
+	"databasemysql.h"
+	"databasesqlite.h"
+	"databaseodbc.h"
+	"databasepgsql.h"
+	"configmanager.h"
+
+1649082775 source:c:\users\kyogron\documents\backup04-04\src\databasemanager.cpp
+	"otpch.h"
+	"enums.h"
+	<iostream>
+	"databasemanager.h"
+	"tools.h"
+	"configmanager.h"
+
+1649082759 c:\users\kyogron\documents\backup04-04\src\databasemanager.h
+	"database.h"
+
+1649082779 source:c:\users\kyogron\documents\backup04-04\src\databasemysql.cpp
+	"otpch.h"
+	"scheduler.h"
+	"database.h"
+	"databasemysql.h"
+	"errmsg.h"
+	<mysql/errmsg.h>
+	<iostream>
+	"configmanager.h"
+
+1649082768 source:c:\users\kyogron\documents\backup04-04\src\databasesqlite.cpp
+	"otpch.h"
+	<iostream>
+	<boost/regex.hpp>
+	"database.h"
+	"databasesqlite.h"
+	"tools.h"
+	"configmanager.h"
+
+1649082754 source:c:\users\kyogron\documents\backup04-04\src\depot.cpp
+	"otpch.h"
+	"depot.h"
+	"tools.h"
+
+1649082771 source:c:\users\kyogron\documents\backup04-04\src\exception.cpp
+	"otpch.h"
+	"exception.h"
+	<iostream>
+	<iomanip>
+	<fstream>
+	<excpt.h>
+	<tlhelp32.h>
+	<boost/config.hpp>
+	"tools.h"
+	"configmanager.h"
+
+1649082779 source:c:\users\kyogron\documents\backup04-04\src\fileloader.cpp
+	"otpch.h"
+	"fileloader.h"
+
+1649082778 source:c:\users\kyogron\documents\backup04-04\src\game.cpp
+	"otpch.h"
+	"game.h"
+	"configmanager.h"
+	"gameservers.h"
+	"server.h"
+	"chat.h"
+	"luascript.h"
+	"creature.h"
+	"combat.h"
+	"tile.h"
+	"database.h"
+	"iologindata.h"
+	"ioban.h"
+	"ioguild.h"
+	"items.h"
+	"container.h"
+	"monsters.h"
+	"house.h"
+	"quests.h"
+	"actions.h"
+	"globalevent.h"
+	"movement.h"
+	"raids.h"
+	"scriptmanager.h"
+	"spells.h"
+	"talkaction.h"
+	"weapons.h"
+	"vocation.h"
+	"group.h"
+	"exception.h"
+
+1649082780 c:\users\kyogron\documents\backup04-04\src\ioban.h
+	"otsystem.h"
+	"enums.h"
+
+1649082764 c:\users\kyogron\documents\backup04-04\src\quests.h
+	"otsystem.h"
+	"networkmessage.h"
+	"player.h"
+
+1649082770 c:\users\kyogron\documents\backup04-04\src\globalevent.h
+	"baseevents.h"
+	"const.h"
+	"scheduler.h"
+
+1649082762 c:\users\kyogron\documents\backup04-04\src\movement.h
+	"baseevents.h"
+	"creature.h"
+
+1649082778 c:\users\kyogron\documents\backup04-04\src\scriptmanager.h
+	"otsystem.h"
+
+1649082775 source:c:\users\kyogron\documents\backup04-04\src\gameservers.cpp
+	"otpch.h"
+	<iostream>
+	<libxml/xmlmemory.h>
+	<libxml/parser.h>
+	"gameservers.h"
+	"tools.h"
+
+1649082776 source:c:\users\kyogron\documents\backup04-04\src\globalevent.cpp
+	"otpch.h"
+	<libxml/xmlmemory.h>
+	<libxml/parser.h>
+	"globalevent.h"
+	"tools.h"
+	"player.h"
+
+1649082765 source:c:\users\kyogron\documents\backup04-04\src\group.cpp
+	"otpch.h"
+	<iostream>
+	<libxml/xmlmemory.h>
+	<libxml/parser.h>
+	"group.h"
+	"tools.h"
+
+1649082781 source:c:\users\kyogron\documents\backup04-04\src\gui.cpp
+	"gui.h"
+	<tchar.h>
+
+1649082780 c:\users\kyogron\documents\backup04-04\src\gui.h
+	"definitions.h"
+	"resources.h"
+	"playerbox.h"
+
+1649082772 c:\users\kyogron\documents\backup04-04\src\playerbox.h
+	"otsystem.h"
+
+1649082773 source:c:\users\kyogron\documents\backup04-04\src\house.cpp
+	"otpch.h"
+	"house.h"
+	"tools.h"
+	"database.h"
+	"beds.h"
+	"town.h"
+	"iologindata.h"
+	"ioguild.h"
+	"iomapserialize.h"
+	"configmanager.h"
+	"game.h"
+
+1649082779 c:\users\kyogron\documents\backup04-04\src\iomapserialize.h
+	"otsystem.h"
+	"database.h"
+	"map.h"
+
+1649082778 source:c:\users\kyogron\documents\backup04-04\src\housetile.cpp
+	"otpch.h"
+	"housetile.h"
+	"house.h"
+	"game.h"
+	"configmanager.h"
+
+1649082760 source:c:\users\kyogron\documents\backup04-04\src\gui_resources.rc
+	"resources.h"
+	<windows.h>
+
+1649082769 source:c:\users\kyogron\documents\backup04-04\src\inputbox.cpp
+	"inputbox.h"
+
+1649082749 c:\users\kyogron\documents\backup04-04\src\inputbox.h
+	"otsystem.h"
+	<tchar.h>
+
+1649082760 source:c:\users\kyogron\documents\backup04-04\src\ioban.cpp
+	"otpch.h"
+	"ioban.h"
+	"tools.h"
+	"database.h"
+	"iologindata.h"
+
+1649082778 source:c:\users\kyogron\documents\backup04-04\src\ioguild.cpp
+	"otpch.h"
+	"ioguild.h"
+	"database.h"
+	"configmanager.h"
+	"game.h"
+
+1649082777 source:c:\users\kyogron\documents\backup04-04\src\iologindata.cpp
+	"otpch.h"
+	<iostream>
+	<iomanip>
+	"iologindata.h"
+	"tools.h"
+	"gameservers.h"
+	"town.h"
+	"house.h"
+	"item.h"
+	"vocation.h"
+	"configmanager.h"
+	"game.h"
+
+1649082767 source:c:\users\kyogron\documents\backup04-04\src\iomap.cpp
+	"otpch.h"
+	"iomap.h"
+	"fileloader.h"
+	"map.h"
+	"town.h"
+	"tile.h"
+	"item.h"
+	"container.h"
+	"depot.h"
+	"teleport.h"
+	"beds.h"
+	"game.h"
+
+1649082748 c:\users\kyogron\documents\backup04-04\src\teleport.h
+	"tile.h"
+
+1649082778 source:c:\users\kyogron\documents\backup04-04\src\iomapserialize.cpp
+	"otpch.h"
+	"iomapserialize.h"
+	"house.h"
+	"iologindata.h"
+	"configmanager.h"
+	"game.h"
+
+1649082786 source:c:\users\kyogron\documents\backup04-04\src\item.cpp
+	"otpch.h"
+	<iostream>
+	<iomanip>
+	"item.h"
+	"container.h"
+	"depot.h"
+	"teleport.h"
+	"trashholder.h"
+	"mailbox.h"
+	"luascript.h"
+	"combat.h"
+	"house.h"
+	"beds.h"
+	"actions.h"
+	"configmanager.h"
+	"game.h"
+	"movement.h"
+
+1649082751 c:\users\kyogron\documents\backup04-04\src\trashholder.h
+	"tile.h"
+	"const.h"
+
+1649082781 c:\users\kyogron\documents\backup04-04\src\mailbox.h
+	"const.h"
+	"cylinder.h"
+	"item.h"
+
+1649082761 source:c:\users\kyogron\documents\backup04-04\src\itemattributes.cpp
+	"otpch.h"
+	"itemattributes.h"
+	"fileloader.h"
+
+1649082784 source:c:\users\kyogron\documents\backup04-04\src\items.cpp
+	"otpch.h"
+	<iostream>
+	<libxml/xmlmemory.h>
+	"items.h"
+	"condition.h"
+	"weapons.h"
+	"configmanager.h"
+	"spells.h"
+
+1649082777 source:c:\users\kyogron\documents\backup04-04\src\luascript.cpp
+	"otpch.h"
+	"luascript.h"
+	"scriptmanager.h"
+	<boost/filesystem.hpp>
+	<boost/any.hpp>
+	<iostream>
+	<iomanip>
+	"player.h"
+	"item.h"
+	"teleport.h"
+	"area.h"
+	"town.h"
+	"house.h"
+	"housetile.h"
+	"database.h"
+	"iologindata.h"
+	"ioban.h"
+	"iomapserialize.h"
+	"talkaction.h"
+	"spells.h"
+	"combat.h"
+	"condition.h"
+	"baseevents.h"
+	"monsters.h"
+	"raids.h"
+	"configmanager.h"
+	"vocation.h"
+	"status.h"
+	"game.h"
+	"chat.h"
+	"spawn.h"
+
+1649082780 source:c:\users\kyogron\documents\backup04-04\src\mailbox.cpp
+	"otpch.h"
+	"mailbox.h"
+	"player.h"
+	"iologindata.h"
+	"depot.h"
+	"town.h"
+	"configmanager.h"
+	"game.h"
+
+1649082773 source:c:\users\kyogron\documents\backup04-04\src\map.cpp
+	"otpch.h"
+	<iomanip>
+	<boost/config.hpp>
+	<boost/bind.hpp>
+	"iomap.h"
+	"map.h"
+	"tile.h"
+	"creature.h"
+	"player.h"
+	"combat.h"
+	"iomapserialize.h"
+	"items.h"
+	"game.h"
+
+1649082776 source:c:\users\kyogron\documents\backup04-04\src\md5.cpp
+	"otpch.h"
+	"md5.h"
+
+1649082757 c:\users\kyogron\documents\backup04-04\src\md5.h
+	"definitions.h"
+
+1649082772 source:c:\users\kyogron\documents\backup04-04\src\monster.cpp
+	"otpch.h"
+	"monster.h"
+	"spawn.h"
+	"monsters.h"
+	"spells.h"
+	"combat.h"
+	"configmanager.h"
+	"game.h"
+	<boost/algorithm/string/replace.hpp>
+
+1649082763 source:c:\users\kyogron\documents\backup04-04\src\monsters.cpp
+	"otpch.h"
+	<libxml/xmlmemory.h>
+	<libxml/parser.h>
+	"monsters.h"
+	"tools.h"
+	"monster.h"
+	"luascript.h"
+	"container.h"
+	"weapons.h"
+	"spells.h"
+	"combat.h"
+	"configmanager.h"
+	"game.h"
+
+1649082781 source:c:\users\kyogron\documents\backup04-04\src\movement.cpp
+	"otpch.h"
+	<libxml/xmlmemory.h>
+	<libxml/parser.h>
+	"movement.h"
+	"tools.h"
+	"creature.h"
+	"player.h"
+	"tile.h"
+	"vocation.h"
+	"combat.h"
+	"game.h"
+
+1649082774 source:c:\users\kyogron\documents\backup04-04\src\networkmessage.cpp
+	"otpch.h"
+	<iostream>
+	"networkmessage.h"
+	"position.h"
+	"rsa.h"
+	"container.h"
+	"creature.h"
+	"player.h"
+
+1649082776 source:c:\users\kyogron\documents\backup04-04\src\npc.cpp
+	"otpch.h"
+	<libxml/xmlmemory.h>
+	<libxml/parser.h>
+	<functional>
+	<iostream>
+	<fstream>
+	"npc.h"
+	"tools.h"
+	"luascript.h"
+	"position.h"
+	"spells.h"
+	"vocation.h"
+	"configmanager.h"
+	"game.h"
+
+1649082774 source:c:\users\kyogron\documents\backup04-04\src\outfit.cpp
+	"otpch.h"
+	<libxml/xmlmemory.h>
+	<libxml/parser.h>
+	"outfit.h"
+	"tools.h"
+	"player.h"
+	"condition.h"
+	"game.h"
+
+1649082774 source:c:\users\kyogron\documents\backup04-04\src\outputmessage.cpp
+	"otpch.h"
+	"scheduler.h"
+	"outputmessage.h"
+	"protocol.h"
+
+1649082784 source:c:\users\kyogron\documents\backup04-04\src\party.cpp
+	"otpch.h"
+	"party.h"
+	"player.h"
+	"chat.h"
+	"game.h"
+	"configmanager.h"
+
+1649082764 source:c:\users\kyogron\documents\backup04-04\src\player.cpp
+	"otpch.h"
+	<iostream>
+	"player.h"
+	"iologindata.h"
+	"ioban.h"
+	"town.h"
+	"house.h"
+	"beds.h"
+	"combat.h"
+	"gui.h"
+	"movement.h"
+	"weapons.h"
+	"creatureevent.h"
+	"configmanager.h"
+	"game.h"
+	"chat.h"
+
+1649082757 source:c:\users\kyogron\documents\backup04-04\src\playerbox.cpp
+	"otpch.h"
+	"playerbox.h"
+	"gui.h"
+	"player.h"
+	"ioban.h"
+	"game.h"
+
+1649082781 source:c:\users\kyogron\documents\backup04-04\src\position.cpp
+	"otpch.h"
+	<iomanip>
+	"position.h"
+
+1649082780 source:c:\users\kyogron\documents\backup04-04\src\protocol.cpp
+	"otpch.h"
+	<winerror.h>
+	"protocol.h"
+	"scheduler.h"
+	"connection.h"
+	"outputmessage.h"
+	"tools.h"
+	"rsa.h"
+
+1649082762 source:c:\users\kyogron\documents\backup04-04\src\protocolgame.cpp
+	"otpch.h"
+	"resources.h"
+	<boost/function.hpp>
+	<iostream>
+	"protocolgame.h"
+	"textlogger.h"
+	"waitlist.h"
+	"player.h"
+	"connection.h"
+	"networkmessage.h"
+	"outputmessage.h"
+	"iologindata.h"
+	"ioban.h"
+	"items.h"
+	"tile.h"
+	"house.h"
+	"actions.h"
+	"creatureevent.h"
+	"quests.h"
+	"chat.h"
+	"configmanager.h"
+	"game.h"
+	"gui.h"
+
+1649082761 c:\users\kyogron\documents\backup04-04\src\waitlist.h
+
+1649082759 source:c:\users\kyogron\documents\backup04-04\src\protocollogin.cpp
+	"otpch.h"
+	"resources.h"
+	<iomanip>
+	"protocollogin.h"
+	"tools.h"
+	"rsa.h"
+	"iologindata.h"
+	"ioban.h"
+	"gui.h"
+	"outputmessage.h"
+	"connection.h"
+	"configmanager.h"
+	"game.h"
+
+1649082784 c:\users\kyogron\documents\backup04-04\src\protocollogin.h
+	"protocol.h"
+
+1649082754 source:c:\users\kyogron\documents\backup04-04\src\protocolold.cpp
+	"otpch.h"
+	"resources.h"
+	"protocolold.h"
+	"rsa.h"
+	"outputmessage.h"
+	"connection.h"
+	"gui.h"
+	"game.h"
+
+1649082762 source:c:\users\kyogron\documents\backup04-04\src\quests.cpp
+	"otpch.h"
+	"quests.h"
+	"tools.h"
+
+1649082774 source:c:\users\kyogron\documents\backup04-04\src\raids.cpp
+	"otpch.h"
+	"raids.h"
+	"player.h"
+	"game.h"
+	"configmanager.h"
+
+1649082767 source:c:\users\kyogron\documents\backup04-04\src\rsa.cpp
+	"otpch.h"
+	"rsa.h"
+
+1649082763 source:c:\users\kyogron\documents\backup04-04\src\scheduler.cpp
+	"otpch.h"
+	"scheduler.h"
+	"exception.h"
+
+1649082757 source:c:\users\kyogron\documents\backup04-04\src\scriptmanager.cpp
+	"otpch.h"
+	"scriptmanager.h"
+	<boost/filesystem.hpp>
+	<libxml/xmlmemory.h>
+	<libxml/parser.h>
+	"actions.h"
+	"movement.h"
+	"spells.h"
+	"talkaction.h"
+	"creatureevent.h"
+	"globalevent.h"
+	"weapons.h"
+	"monsters.h"
+	"spawn.h"
+	"raids.h"
+	"group.h"
+	"vocation.h"
+	"outfit.h"
+	"quests.h"
+	"items.h"
+	"chat.h"
+	"configmanager.h"
+	"luascript.h"
+
+1649082784 source:c:\users\kyogron\documents\backup04-04\src\server.cpp
+	"otpch.h"
+	"server.h"
+	"connection.h"
+	"outputmessage.h"
+	"textlogger.h"
+	"game.h"
+	"configmanager.h"
+
+1649082782 source:c:\users\kyogron\documents\backup04-04\src\sha1.cpp
+	"otpch.h"
+	"sha1.h"
+
+1649082781 c:\users\kyogron\documents\backup04-04\src\sha1.h
+
+1649082780 source:c:\users\kyogron\documents\backup04-04\src\spawn.cpp
+	"otpch.h"
+	<libxml/xmlmemory.h>
+	<libxml/parser.h>
+	"spawn.h"
+	"tools.h"
+	"player.h"
+	"npc.h"
+	"configmanager.h"
+	"game.h"
+
+1649082786 source:c:\users\kyogron\documents\backup04-04\src\spells.cpp
+	"otpch.h"
+	"const.h"
+	<libxml/xmlmemory.h>
+	<libxml/parser.h>
+	"spells.h"
+	"tools.h"
+	"house.h"
+	"housetile.h"
+	"combat.h"
+	"monsters.h"
+	"configmanager.h"
+	"game.h"
+
+1649082780 source:c:\users\kyogron\documents\backup04-04\src\status.cpp
+	"otpch.h"
+	"resources.h"
+	<libxml/xmlmemory.h>
+	<libxml/parser.h>
+	"status.h"
+	"tools.h"
+	"connection.h"
+	"networkmessage.h"
+	"outputmessage.h"
+	"configmanager.h"
+	"game.h"
+
+1649082764 source:c:\users\kyogron\documents\backup04-04\src\talkaction.cpp
+	"otpch.h"
+	"talkaction.h"
+	<boost/config.hpp>
+	<boost/version.hpp>
+	"iologindata.h"
+	"ioban.h"
+	"player.h"
+	"npc.h"
+	"house.h"
+	"town.h"
+	"teleport.h"
+	"status.h"
+	"textlogger.h"
+	"outputmessage.h"
+	"connection.h"
+	"admin.h"
+	"protocollogin.h"
+	"protocolold.h"
+	"configmanager.h"
+	"game.h"
+	"chat.h"
+	"tools.h"
+
+1649082779 source:c:\users\kyogron\documents\backup04-04\src\tasks.cpp
+	"otpch.h"
+	"tasks.h"
+	"outputmessage.h"
+	"exception.h"
+	"game.h"
+
+1649082763 source:c:\users\kyogron\documents\backup04-04\src\teleport.cpp
+	"otpch.h"
+	"teleport.h"
+	"game.h"
+
+1649082766 source:c:\users\kyogron\documents\backup04-04\src\textlogger.cpp
+	"otpch.h"
+	"textlogger.h"
+	"tools.h"
+	"gui.h"
+
+1649082763 source:c:\users\kyogron\documents\backup04-04\src\thing.cpp
+	"otpch.h"
+	"thing.h"
+	"cylinder.h"
+	"tile.h"
+	"item.h"
+	"creature.h"
+	"player.h"
+
+1649082756 source:c:\users\kyogron\documents\backup04-04\src\tile.cpp
+	"otpch.h"
+	<iostream>
+	"tile.h"
+	"housetile.h"
+	"player.h"
+	"creature.h"
+	"teleport.h"
+	"trashholder.h"
+	"mailbox.h"
+	"combat.h"
+	"movement.h"
+	"game.h"
+	"configmanager.h"
+
+1649082786 source:c:\users\kyogron\documents\backup04-04\src\tools.cpp
+	"otpch.h"
+	<iostream>
+	<iomanip>
+	"tools.h"
+	"md5.h"
+	"sha1.h"
+	"vocation.h"
+	"configmanager.h"
+
+1649082759 source:c:\users\kyogron\documents\backup04-04\src\trashholder.cpp
+	"otpch.h"
+	"trashholder.h"
+	"game.h"
+	"spells.h"
+
+1649082782 source:c:\users\kyogron\documents\backup04-04\src\vocation.cpp
+	"otpch.h"
+	<iostream>
+	<libxml/xmlmemory.h>
+	<libxml/parser.h>
+	"vocation.h"
+	"tools.h"
+
+1649082784 source:c:\users\kyogron\documents\backup04-04\src\waitlist.cpp
+	"otpch.h"
+	"waitlist.h"
+	"player.h"
+	"configmanager.h"
+	"game.h"
+
+1649082784 source:c:\users\kyogron\documents\backup04-04\src\weapons.cpp
+	"otpch.h"
+	"weapons.h"
+	<libxml/xmlmemory.h>
+	<libxml/parser.h>
+	"game.h"
+	"configmanager.h"
+	"tools.h"
+
+1649089943 source:c:\users\kyogron\documents\backup04-04\src\otserv.cpp
+	"otpch.h"
+	"otsystem.h"
+	<iostream>
+	<fstream>
+	<iomanip>
+	<unistd.h>
+	<boost/config.hpp>
+	"server.h"
+	"gameservers.h"
+	"networkmessage.h"
+	"game.h"
+	"chat.h"
+	"tools.h"
+	"rsa.h"
+	"textlogger.h"
+	"protocollogin.h"
+	"protocolgame.h"
+	"protocolold.h"
+	"status.h"
+	"admin.h"
+	"configmanager.h"
+	"scriptmanager.h"
+	"databasemanager.h"
+	"iologindata.h"
+	"ioban.h"
+	"outfit.h"
+	"vocation.h"
+	"group.h"
+	"monsters.h"
+	"allocator.h"
+	"exception.h"
+	"shellapi.h"
+	"gui.h"
+	"inputbox.h"
+	"commctrl.h"
+	"resources.h"
+	<exception>
+
+1650720950 source:c:\users\kyogron\documents\backup26-04\src\actions.cpp
+	"otpch.h"
+	"const.h"
+	"actions.h"
+	"tools.h"
+	"player.h"
+	"monster.h"
+	"npc.h"
+	"item.h"
+	"container.h"
+	"game.h"
+	"configmanager.h"
+	"combat.h"
+	"spells.h"
+	"house.h"
+	"beds.h"
+	<libxml/xmlmemory.h>
+	<libxml/parser.h>
+
+1650721009 c:\users\kyogron\documents\backup26-04\src\otpch.h
+	<winerror.h>
+	<libxml/xmlmemory.h>
+	<libxml/parser.h>
+	<libxml/threads.h>
+	<boost/config.hpp>
+	<boost/function.hpp>
+	<boost/bind.hpp>
+	<boost/regex.hpp>
+	<boost/tokenizer.hpp>
+	"thing.h"
+
+1650721024 c:\users\kyogron\documents\backup26-04\src\thing.h
+	"position.h"
+
+1650720926 c:\users\kyogron\documents\backup26-04\src\position.h
+	<stdlib.h>
+	<cmath>
+	<iostream>
+	<vector>
+
+1650721025 c:\users\kyogron\documents\backup26-04\src\const.h
+	"definitions.h"
+
+1650721028 c:\users\kyogron\documents\backup26-04\src\definitions.h
+	"exception.h"
+	<cstring>
+
+1650721033 c:\users\kyogron\documents\backup26-04\src\exception.h
+	"otsystem.h"
+
+1650721012 c:\users\kyogron\documents\backup26-04\src\otsystem.h
+	"definitions.h"
+	<string>
+	<algorithm>
+	<bitset>
+	<queue>
+	<set>
+	<vector>
+	<list>
+	<map>
+	<limits>
+	<boost/utility.hpp>
+	<boost/asio.hpp>
+	<boost/thread.hpp>
+	<boost/foreach.hpp>
+	<boost/shared_ptr.hpp>
+	<stddef.h>
+	<stdlib.h>
+	<stdint.h>
+	<time.h>
+	<assert.h>
+	<windows.h>
+	<sys/timeb.h>
+	<sys/timeb.h>
+	<sys/types.h>
+	<sys/socket.h>
+	<unistd.h>
+	<time.h>
+	<netdb.h>
+	<errno.h>
+	<arpa/inet.h>
+	<netinet/in.h>
+
+1650721028 c:\users\kyogron\documents\backup26-04\src\actions.h
+	"baseevents.h"
+	"luascript.h"
+	"thing.h"
+
+1650720921 c:\users\kyogron\documents\backup26-04\src\baseevents.h
+	"otsystem.h"
+	"luascript.h"
+	<libxml/parser.h>
+
+1650720924 c:\users\kyogron\documents\backup26-04\src\luascript.h
+	"otsystem.h"
+	"lua.h"
+	"lualib.h"
+	"lauxlib.h"
+	"database.h"
+	"position.h"
+
+1650721006 c:\users\kyogron\documents\backup26-04\src\database.h
+	"otsystem.h"
+	"enums.h"
+	<sstream>
+	"databasemysql.h"
+	"databasesqlite.h"
+	"databaseodbc.h"
+	"databasepgsql.h"
+
+1650721017 c:\users\kyogron\documents\backup26-04\src\enums.h
+	<string>
+	<list>
+
+1650721023 c:\users\kyogron\documents\backup26-04\src\databasemysql.h
+	<winsock2.h>
+	<mysql.h>
+	<mysql/mysql.h>
+	<sstream>
+	<map>
+
+1650721014 c:\users\kyogron\documents\backup26-04\src\databasesqlite.h
+	<sqlite3.h>
+	<sstream>
+	<map>
+
+1650721005 c:\users\kyogron\documents\backup26-04\src\databaseodbc.h
+	<windows.h>
+	<sqltypes.h>
+	<sql.h>
+	<sqlext.h>
+
+1650720902 c:\users\kyogron\documents\backup26-04\src\databasepgsql.h
+	<postgresql/libpq-fe.h>
+
+1650721024 c:\users\kyogron\documents\backup26-04\src\tools.h
+	"otsystem.h"
+	"enums.h"
+	"const.h"
+	<libxml/parser.h>
+	<boost/tokenizer.hpp>
+	"position.h"
+
+1650721024 c:\users\kyogron\documents\backup26-04\src\player.h
+	"otsystem.h"
+	"enums.h"
+	"creature.h"
+	"cylinder.h"
+	"container.h"
+	"depot.h"
+	"outfit.h"
+	"vocation.h"
+	"group.h"
+	"protocolgame.h"
+	"ioguild.h"
+	"party.h"
+	"npc.h"
+
+1650720919 c:\users\kyogron\documents\backup26-04\src\creature.h
+	"otsystem.h"
+	"templates.h"
+	<boost/any.hpp>
+	"const.h"
+	"enums.h"
+	"map.h"
+	"condition.h"
+	"creatureevent.h"
+
+1650721025 c:\users\kyogron\documents\backup26-04\src\templates.h
+	"otsystem.h"
+
+1650721025 c:\users\kyogron\documents\backup26-04\src\map.h
+	"tools.h"
+	"fileloader.h"
+	"position.h"
+	"waypoints.h"
+	"tile.h"
+
+1650721038 c:\users\kyogron\documents\backup26-04\src\fileloader.h
+	"otsystem.h"
+
+1650721006 c:\users\kyogron\documents\backup26-04\src\waypoints.h
+	"otsystem.h"
+
+1650721025 c:\users\kyogron\documents\backup26-04\src\tile.h
+	<boost/shared_ptr.hpp>
+	"cylinder.h"
+	"item.h"
+
+1650720920 c:\users\kyogron\documents\backup26-04\src\cylinder.h
+	"otsystem.h"
+
+1650720907 c:\users\kyogron\documents\backup26-04\src\item.h
+	"otsystem.h"
+	<libxml/xmlmemory.h>
+	<libxml/parser.h>
+	"thing.h"
+	"itemattributes.h"
+	"items.h"
+	"raids.h"
+
+1650720902 c:\users\kyogron\documents\backup26-04\src\itemattributes.h
+	"otsystem.h"
+	<boost/any.hpp>
+
+1650720910 c:\users\kyogron\documents\backup26-04\src\items.h
+	"otsystem.h"
+	"itemloader.h"
+	"const.h"
+	"enums.h"
+	"position.h"
+	<libxml/parser.h>
+
+1650720925 c:\users\kyogron\documents\backup26-04\src\itemloader.h
+	"fileloader.h"
+
+1650721026 c:\users\kyogron\documents\backup26-04\src\raids.h
+	"otsystem.h"
+	"const.h"
+	<libxml/xmlmemory.h>
+	<libxml/parser.h>
+	"baseevents.h"
+	"position.h"
+	"tools.h"
+
+1650721022 c:\users\kyogron\documents\backup26-04\src\condition.h
+	"otsystem.h"
+	"const.h"
+	"enums.h"
+	<libxml/xmlmemory.h>
+	<libxml/parser.h>
+	"fileloader.h"
+
+1650720976 c:\users\kyogron\documents\backup26-04\src\creatureevent.h
+	"enums.h"
+	"baseevents.h"
+	"tile.h"
+
+1650721011 c:\users\kyogron\documents\backup26-04\src\container.h
+	"otsystem.h"
+	"cylinder.h"
+	"item.h"
+
+1650721018 c:\users\kyogron\documents\backup26-04\src\depot.h
+	"container.h"
+
+1650720906 c:\users\kyogron\documents\backup26-04\src\outfit.h
+	"otsystem.h"
+	"enums.h"
+
+1650720903 c:\users\kyogron\documents\backup26-04\src\vocation.h
+	"otsystem.h"
+	"enums.h"
+
+1650721007 c:\users\kyogron\documents\backup26-04\src\group.h
+	"otsystem.h"
+
+1650720907 c:\users\kyogron\documents\backup26-04\src\protocolgame.h
+	"otsystem.h"
+	"enums.h"
+	"protocol.h"
+	"creature.h"
+
+1650720987 c:\users\kyogron\documents\backup26-04\src\protocol.h
+	"otsystem.h"
+	"rsa.h"
+
+1650720921 c:\users\kyogron\documents\backup26-04\src\rsa.h
+	"otsystem.h"
+	"gmp.h"
+
+1650720921 c:\users\kyogron\documents\backup26-04\src\ioguild.h
+	"otsystem.h"
+	"player.h"
+
+1650721006 c:\users\kyogron\documents\backup26-04\src\party.h
+	"player.h"
+
+1650720906 c:\users\kyogron\documents\backup26-04\src\npc.h
+	"templates.h"
+	"const.h"
+	"creature.h"
+	"luascript.h"
+
+1650720909 c:\users\kyogron\documents\backup26-04\src\monster.h
+	"monsters.h"
+	"raids.h"
+	"tile.h"
+
+1650720950 c:\users\kyogron\documents\backup26-04\src\monsters.h
+	"otsystem.h"
+	"creature.h"
+
+1650720962 c:\users\kyogron\documents\backup26-04\src\game.h
+	"otsystem.h"
+	"enums.h"
+	"templates.h"
+	"scheduler.h"
+	"map.h"
+	"spawn.h"
+	"item.h"
+	"player.h"
+	"npc.h"
+	"monster.h"
+
+1650721006 c:\users\kyogron\documents\backup26-04\src\scheduler.h
+	"otsystem.h"
+	"tasks.h"
+
+1650721010 c:\users\kyogron\documents\backup26-04\src\tasks.h
+	"otsystem.h"
+	<boost/function.hpp>
+
+1650721029 c:\users\kyogron\documents\backup26-04\src\spawn.h
+	"otsystem.h"
+	"templates.h"
+	"position.h"
+	"tile.h"
+	"monster.h"
+
+1650721036 c:\users\kyogron\documents\backup26-04\src\configmanager.h
+	"luascript.h"
+
+1650721030 c:\users\kyogron\documents\backup26-04\src\combat.h
+	"otsystem.h"
+	"baseevents.h"
+	"condition.h"
+	"map.h"
+
+1650720987 c:\users\kyogron\documents\backup26-04\src\spells.h
+	"otsystem.h"
+	"enums.h"
+	"player.h"
+	"luascript.h"
+	"baseevents.h"
+	"actions.h"
+	"talkaction.h"
+
+1650720911 c:\users\kyogron\documents\backup26-04\src\talkaction.h
+	"otsystem.h"
+	"enums.h"
+	"player.h"
+	"tools.h"
+	"luascript.h"
+	"baseevents.h"
+
+1650720920 c:\users\kyogron\documents\backup26-04\src\house.h
+	"otsystem.h"
+	<boost/regex.hpp>
+	<boost/tr1/unordered_set.hpp>
+	"position.h"
+	"housetile.h"
+	"player.h"
+
+1650720907 c:\users\kyogron\documents\backup26-04\src\housetile.h
+	"tile.h"
+
+1650720922 c:\users\kyogron\documents\backup26-04\src\beds.h
+	"item.h"
+
+1650721027 source:c:\users\kyogron\documents\backup26-04\src\admin.cpp
+	"otpch.h"
+	<iostream>
+	"admin.h"
+	"rsa.h"
+	"tools.h"
+	"configmanager.h"
+	"game.h"
+	"connection.h"
+	"outputmessage.h"
+	"networkmessage.h"
+	"house.h"
+	"town.h"
+	"iologindata.h"
+
+1650720908 c:\users\kyogron\documents\backup26-04\src\admin.h
+	"otsystem.h"
+	"textlogger.h"
+	"player.h"
+
+1650720962 c:\users\kyogron\documents\backup26-04\src\textlogger.h
+	"otsystem.h"
+	<ostream>
+	<fstream>
+
+1650721012 c:\users\kyogron\documents\backup26-04\src\connection.h
+	"otsystem.h"
+	"networkmessage.h"
+	<boost/utility.hpp>
+	<boost/enable_shared_from_this.hpp>
+
+1650720916 c:\users\kyogron\documents\backup26-04\src\networkmessage.h
+	"otsystem.h"
+	"const.h"
+
+1650720902 c:\users\kyogron\documents\backup26-04\src\outputmessage.h
+	"otsystem.h"
+	"tools.h"
+	"connection.h"
+	"networkmessage.h"
+	<iostream>
+	<sstream>
+
+1650721030 c:\users\kyogron\documents\backup26-04\src\town.h
+	"otsystem.h"
+
+1650721010 c:\users\kyogron\documents\backup26-04\src\iologindata.h
+	"otsystem.h"
+	"database.h"
+	"creature.h"
+	"player.h"
+	"account.h"
+	"group.h"
+
+1650720908 c:\users\kyogron\documents\backup26-04\src\account.h
+	"otsystem.h"
+	"gameservers.h"
+
+1650721004 c:\users\kyogron\documents\backup26-04\src\gameservers.h
+	"otsystem.h"
+	"resources.h"
+	"const.h"
+
+1650721019 c:\users\kyogron\documents\backup26-04\src\resources.h
+	"definitions.h"
+
+1650721007 source:c:\users\kyogron\documents\backup26-04\src\allocator.cpp
+	"otpch.h"
+	"allocator.h"
+
+1650720920 c:\users\kyogron\documents\backup26-04\src\allocator.h
+	"otsystem.h"
+	<boost/pool/pool.hpp>
+	<memory>
+	<cstdlib>
+	<fstream>
+
+1650721037 source:c:\users\kyogron\documents\backup26-04\src\area.cpp
+	"otpch.h"
+	"const.h"
+	"area.h"
+	"tools.h"
+	"game.h"
+	"configmanager.h"
+	"creature.h"
+	"player.h"
+
+1650720906 c:\users\kyogron\documents\backup26-04\src\area.h
+
+1650721013 source:c:\users\kyogron\documents\backup26-04\src\baseevents.cpp
+	"otpch.h"
+	<libxml/xmlmemory.h>
+	"baseevents.h"
+	"tools.h"
+
+1650721007 source:c:\users\kyogron\documents\backup26-04\src\beds.cpp
+	"otpch.h"
+	"beds.h"
+	"house.h"
+	"player.h"
+	"iologindata.h"
+	"game.h"
+	"configmanager.h"
+
+1650721007 source:c:\users\kyogron\documents\backup26-04\src\chat.cpp
+	"otpch.h"
+	"chat.h"
+	"player.h"
+	"iologindata.h"
+	"configmanager.h"
+	"game.h"
+
+1650720911 c:\users\kyogron\documents\backup26-04\src\chat.h
+	"otsystem.h"
+	<fstream>
+	"const.h"
+	"party.h"
+
+1650720910 source:c:\users\kyogron\documents\backup26-04\src\combat.cpp
+	"otpch.h"
+	"const.h"
+	"combat.h"
+	"tools.h"
+	"game.h"
+	"configmanager.h"
+	"creature.h"
+	"player.h"
+	"weapons.h"
+
+1650720908 c:\users\kyogron\documents\backup26-04\src\weapons.h
+	"otsystem.h"
+	"const.h"
+	"combat.h"
+	"baseevents.h"
+	"luascript.h"
+	"player.h"
+	"item.h"
+
+1650721023 source:c:\users\kyogron\documents\backup26-04\src\condition.cpp
+	"otpch.h"
+	"condition.h"
+	"tools.h"
+	"game.h"
+	"creature.h"
+	"combat.h"
+
+1650721016 source:c:\users\kyogron\documents\backup26-04\src\configmanager.cpp
+	"otpch.h"
+	<iostream>
+	"configmanager.h"
+	"tools.h"
+
+1650721026 source:c:\users\kyogron\documents\backup26-04\src\connection.cpp
+	"otpch.h"
+	"connection.h"
+	"protocol.h"
+	"protocolgame.h"
+	"protocolold.h"
+	"admin.h"
+	"status.h"
+	"outputmessage.h"
+	"scheduler.h"
+	"server.h"
+	"configmanager.h"
+	"tools.h"
+	"textlogger.h"
+
+1650720922 c:\users\kyogron\documents\backup26-04\src\protocolold.h
+	"protocol.h"
+
+1650720950 c:\users\kyogron\documents\backup26-04\src\status.h
+	"otsystem.h"
+	"protocol.h"
+
+1650721016 c:\users\kyogron\documents\backup26-04\src\server.h
+	"otsystem.h"
+	<boost/enable_shared_from_this.hpp>
+
+1650721005 source:c:\users\kyogron\documents\backup26-04\src\container.cpp
+	"otpch.h"
+	"container.h"
+	"game.h"
+	"iomap.h"
+	"player.h"
+
+1650720921 c:\users\kyogron\documents\backup26-04\src\iomap.h
+	"status.h"
+	"map.h"
+	"house.h"
+	"spawn.h"
+	"item.h"
+
+1650720914 source:c:\users\kyogron\documents\backup26-04\src\creature.cpp
+	"otpch.h"
+	"creature.h"
+	"player.h"
+	"npc.h"
+	"monster.h"
+	"condition.h"
+	"combat.h"
+	"container.h"
+	"exception.h"
+	"configmanager.h"
+	"game.h"
+
+1650721027 source:c:\users\kyogron\documents\backup26-04\src\creatureevent.cpp
+	"otpch.h"
+	<sstream>
+	"creatureevent.h"
+	"player.h"
+	"tools.h"
+
+1650721010 source:c:\users\kyogron\documents\backup26-04\src\cylinder.cpp
+	"otpch.h"
+	"cylinder.h"
+
+1650720904 source:c:\users\kyogron\documents\backup26-04\src\database.cpp
+	"otpch.h"
+	<string>
+	"database.h"
+	"databasemysql.h"
+	"databasesqlite.h"
+	"databaseodbc.h"
+	"databasepgsql.h"
+	"configmanager.h"
+
+1650721015 source:c:\users\kyogron\documents\backup26-04\src\databasemanager.cpp
+	"otpch.h"
+	"enums.h"
+	<iostream>
+	"databasemanager.h"
+	"tools.h"
+	"configmanager.h"
+
+1650720913 c:\users\kyogron\documents\backup26-04\src\databasemanager.h
+	"database.h"
+
+1650721024 source:c:\users\kyogron\documents\backup26-04\src\databasemysql.cpp
+	"otpch.h"
+	"scheduler.h"
+	"database.h"
+	"databasemysql.h"
+	"errmsg.h"
+	<mysql/errmsg.h>
+	<iostream>
+	"configmanager.h"
+
+1650720962 source:c:\users\kyogron\documents\backup26-04\src\databasesqlite.cpp
+	"otpch.h"
+	<iostream>
+	<boost/regex.hpp>
+	"database.h"
+	"databasesqlite.h"
+	"tools.h"
+	"configmanager.h"
+
+1650720907 source:c:\users\kyogron\documents\backup26-04\src\depot.cpp
+	"otpch.h"
+	"depot.h"
+	"tools.h"
+
+1650721008 source:c:\users\kyogron\documents\backup26-04\src\exception.cpp
+	"otpch.h"
+	"exception.h"
+	<iostream>
+	<iomanip>
+	<fstream>
+	<excpt.h>
+	<tlhelp32.h>
+	<boost/config.hpp>
+	"tools.h"
+	"configmanager.h"
+
+1650721024 source:c:\users\kyogron\documents\backup26-04\src\fileloader.cpp
+	"otpch.h"
+	"fileloader.h"
+
+1650721023 source:c:\users\kyogron\documents\backup26-04\src\game.cpp
+	"otpch.h"
+	"game.h"
+	"configmanager.h"
+	"gameservers.h"
+	"server.h"
+	"chat.h"
+	"luascript.h"
+	"creature.h"
+	"combat.h"
+	"tile.h"
+	"database.h"
+	"iologindata.h"
+	"ioban.h"
+	"ioguild.h"
+	"items.h"
+	"container.h"
+	"monsters.h"
+	"house.h"
+	"quests.h"
+	"actions.h"
+	"globalevent.h"
+	"movement.h"
+	"raids.h"
+	"scriptmanager.h"
+	"spells.h"
+	"talkaction.h"
+	"weapons.h"
+	"vocation.h"
+	"group.h"
+	"exception.h"
+
+1650721026 c:\users\kyogron\documents\backup26-04\src\ioban.h
+	"otsystem.h"
+	"enums.h"
+
+1650720921 c:\users\kyogron\documents\backup26-04\src\quests.h
+	"otsystem.h"
+	"networkmessage.h"
+	"player.h"
+
+1650721006 c:\users\kyogron\documents\backup26-04\src\globalevent.h
+	"baseevents.h"
+	"const.h"
+	"scheduler.h"
+
+1650720916 c:\users\kyogron\documents\backup26-04\src\movement.h
+	"baseevents.h"
+	"creature.h"
+
+1650721023 c:\users\kyogron\documents\backup26-04\src\scriptmanager.h
+	"otsystem.h"
+
+1650721017 source:c:\users\kyogron\documents\backup26-04\src\gameservers.cpp
+	"otpch.h"
+	<iostream>
+	<libxml/xmlmemory.h>
+	<libxml/parser.h>
+	"gameservers.h"
+	"tools.h"
+
+1650721018 source:c:\users\kyogron\documents\backup26-04\src\globalevent.cpp
+	"otpch.h"
+	<libxml/xmlmemory.h>
+	<libxml/parser.h>
+	"globalevent.h"
+	"tools.h"
+	"player.h"
+
+1650720924 source:c:\users\kyogron\documents\backup26-04\src\group.cpp
+	"otpch.h"
+	<iostream>
+	<libxml/xmlmemory.h>
+	<libxml/parser.h>
+	"group.h"
+	"tools.h"
+
+1650721027 source:c:\users\kyogron\documents\backup26-04\src\gui.cpp
+	"gui.h"
+	<tchar.h>
+
+1650721027 c:\users\kyogron\documents\backup26-04\src\gui.h
+	"definitions.h"
+	"resources.h"
+	"playerbox.h"
+
+1650721009 c:\users\kyogron\documents\backup26-04\src\playerbox.h
+	"otsystem.h"
+
+1650720914 source:c:\users\kyogron\documents\backup26-04\src\gui_resources.rc
+	"resources.h"
+	<windows.h>
+
+1650721011 source:c:\users\kyogron\documents\backup26-04\src\house.cpp
+	"otpch.h"
+	"house.h"
+	"tools.h"
+	"database.h"
+	"beds.h"
+	"town.h"
+	"iologindata.h"
+	"ioguild.h"
+	"iomapserialize.h"
+	"configmanager.h"
+	"game.h"
+
+1650721025 c:\users\kyogron\documents\backup26-04\src\iomapserialize.h
+	"otsystem.h"
+	"database.h"
+	"map.h"
+
+1650721021 source:c:\users\kyogron\documents\backup26-04\src\housetile.cpp
+	"otpch.h"
+	"housetile.h"
+	"house.h"
+	"game.h"
+	"configmanager.h"
+
+1650720987 source:c:\users\kyogron\documents\backup26-04\src\inputbox.cpp
+	"inputbox.h"
+
+1650720903 c:\users\kyogron\documents\backup26-04\src\inputbox.h
+	"otsystem.h"
+	<tchar.h>
+
+1650720914 source:c:\users\kyogron\documents\backup26-04\src\ioban.cpp
+	"otpch.h"
+	"ioban.h"
+	"tools.h"
+	"database.h"
+	"iologindata.h"
+
+1650721022 source:c:\users\kyogron\documents\backup26-04\src\ioguild.cpp
+	"otpch.h"
+	"ioguild.h"
+	"database.h"
+	"configmanager.h"
+	"game.h"
+
+1650721020 source:c:\users\kyogron\documents\backup26-04\src\iologindata.cpp
+	"otpch.h"
+	<iostream>
+	<iomanip>
+	"iologindata.h"
+	"tools.h"
+	"gameservers.h"
+	"town.h"
+	"house.h"
+	"item.h"
+	"vocation.h"
+	"configmanager.h"
+	"game.h"
+
+1650720932 source:c:\users\kyogron\documents\backup26-04\src\iomap.cpp
+	"otpch.h"
+	"iomap.h"
+	"fileloader.h"
+	"map.h"
+	"town.h"
+	"tile.h"
+	"item.h"
+	"container.h"
+	"depot.h"
+	"teleport.h"
+	"beds.h"
+	"game.h"
+
+1650720902 c:\users\kyogron\documents\backup26-04\src\teleport.h
+	"tile.h"
+
+1650721021 source:c:\users\kyogron\documents\backup26-04\src\iomapserialize.cpp
+	"otpch.h"
+	"iomapserialize.h"
+	"house.h"
+	"iologindata.h"
+	"configmanager.h"
+	"game.h"
+
+1650721037 source:c:\users\kyogron\documents\backup26-04\src\item.cpp
+	"otpch.h"
+	<iostream>
+	<iomanip>
+	"item.h"
+	"container.h"
+	"depot.h"
+	"teleport.h"
+	"trashholder.h"
+	"mailbox.h"
+	"luascript.h"
+	"combat.h"
+	"house.h"
+	"beds.h"
+	"actions.h"
+	"configmanager.h"
+	"game.h"
+	"movement.h"
+
+1650720905 c:\users\kyogron\documents\backup26-04\src\trashholder.h
+	"tile.h"
+	"const.h"
+
+1650721028 c:\users\kyogron\documents\backup26-04\src\mailbox.h
+	"const.h"
+	"cylinder.h"
+	"item.h"
+
+1650720915 source:c:\users\kyogron\documents\backup26-04\src\itemattributes.cpp
+	"otpch.h"
+	"itemattributes.h"
+	"fileloader.h"
+
+1650721034 source:c:\users\kyogron\documents\backup26-04\src\items.cpp
+	"otpch.h"
+	<iostream>
+	<libxml/xmlmemory.h>
+	"items.h"
+	"condition.h"
+	"weapons.h"
+	"configmanager.h"
+	"spells.h"
+
+1650721020 source:c:\users\kyogron\documents\backup26-04\src\luascript.cpp
+	"otpch.h"
+	"luascript.h"
+	"scriptmanager.h"
+	<boost/filesystem.hpp>
+	<boost/any.hpp>
+	<iostream>
+	<iomanip>
+	"player.h"
+	"item.h"
+	"teleport.h"
+	"area.h"
+	"town.h"
+	"house.h"
+	"housetile.h"
+	"database.h"
+	"iologindata.h"
+	"ioban.h"
+	"iomapserialize.h"
+	"talkaction.h"
+	"spells.h"
+	"combat.h"
+	"condition.h"
+	"baseevents.h"
+	"monsters.h"
+	"raids.h"
+	"configmanager.h"
+	"vocation.h"
+	"status.h"
+	"game.h"
+	"chat.h"
+	"spawn.h"
+
+1650721027 source:c:\users\kyogron\documents\backup26-04\src\mailbox.cpp
+	"otpch.h"
+	"mailbox.h"
+	"player.h"
+	"iologindata.h"
+	"depot.h"
+	"town.h"
+	"configmanager.h"
+	"game.h"
+
+1650721011 source:c:\users\kyogron\documents\backup26-04\src\map.cpp
+	"otpch.h"
+	<iomanip>
+	<boost/config.hpp>
+	<boost/bind.hpp>
+	"iomap.h"
+	"map.h"
+	"tile.h"
+	"creature.h"
+	"player.h"
+	"combat.h"
+	"iomapserialize.h"
+	"items.h"
+	"game.h"
+
+1650721019 source:c:\users\kyogron\documents\backup26-04\src\md5.cpp
+	"otpch.h"
+	"md5.h"
+
+1650720912 c:\users\kyogron\documents\backup26-04\src\md5.h
+	"definitions.h"
+
+1650721009 source:c:\users\kyogron\documents\backup26-04\src\monster.cpp
+	"otpch.h"
+	"monster.h"
+	"spawn.h"
+	"monsters.h"
+	"spells.h"
+	"combat.h"
+	"configmanager.h"
+	"game.h"
+	<boost/algorithm/string/replace.hpp>
+
+1650720918 source:c:\users\kyogron\documents\backup26-04\src\monsters.cpp
+	"otpch.h"
+	<libxml/xmlmemory.h>
+	<libxml/parser.h>
+	"monsters.h"
+	"tools.h"
+	"monster.h"
+	"luascript.h"
+	"container.h"
+	"weapons.h"
+	"spells.h"
+	"combat.h"
+	"configmanager.h"
+	"game.h"
+
+1650721028 source:c:\users\kyogron\documents\backup26-04\src\movement.cpp
+	"otpch.h"
+	<libxml/xmlmemory.h>
+	<libxml/parser.h>
+	"movement.h"
+	"tools.h"
+	"creature.h"
+	"player.h"
+	"tile.h"
+	"vocation.h"
+	"combat.h"
+	"game.h"
+
+1650721013 source:c:\users\kyogron\documents\backup26-04\src\networkmessage.cpp
+	"otpch.h"
+	<iostream>
+	"networkmessage.h"
+	"position.h"
+	"rsa.h"
+	"container.h"
+	"creature.h"
+	"player.h"
+
+1650721020 source:c:\users\kyogron\documents\backup26-04\src\npc.cpp
+	"otpch.h"
+	<libxml/xmlmemory.h>
+	<libxml/parser.h>
+	<functional>
+	<iostream>
+	<fstream>
+	"npc.h"
+	"tools.h"
+	"luascript.h"
+	"position.h"
+	"spells.h"
+	"vocation.h"
+	"configmanager.h"
+	"game.h"
+
+1650721037 source:c:\users\kyogron\documents\backup26-04\src\otserv.cpp
+	"otpch.h"
+	"otsystem.h"
+	<iostream>
+	<fstream>
+	<iomanip>
+	<unistd.h>
+	<boost/config.hpp>
+	"server.h"
+	"gameservers.h"
+	"networkmessage.h"
+	"game.h"
+	"chat.h"
+	"tools.h"
+	"rsa.h"
+	"textlogger.h"
+	"protocollogin.h"
+	"protocolgame.h"
+	"protocolold.h"
+	"status.h"
+	"admin.h"
+	"configmanager.h"
+	"scriptmanager.h"
+	"databasemanager.h"
+	"iologindata.h"
+	"ioban.h"
+	"outfit.h"
+	"vocation.h"
+	"group.h"
+	"monsters.h"
+	"allocator.h"
+	"exception.h"
+	"shellapi.h"
+	"gui.h"
+	"inputbox.h"
+	"commctrl.h"
+	"resources.h"
+	<exception>
+
+1650721033 c:\users\kyogron\documents\backup26-04\src\protocollogin.h
+	"protocol.h"
+
+1650721013 source:c:\users\kyogron\documents\backup26-04\src\outfit.cpp
+	"otpch.h"
+	<libxml/xmlmemory.h>
+	<libxml/parser.h>
+	"outfit.h"
+	"tools.h"
+	"player.h"
+	"condition.h"
+	"game.h"
+
+1650721014 source:c:\users\kyogron\documents\backup26-04\src\outputmessage.cpp
+	"otpch.h"
+	"scheduler.h"
+	"outputmessage.h"
+	"protocol.h"
+
+1650721035 source:c:\users\kyogron\documents\backup26-04\src\party.cpp
+	"otpch.h"
+	"party.h"
+	"player.h"
+	"chat.h"
+	"game.h"
+	"configmanager.h"
+
+1650720922 source:c:\users\kyogron\documents\backup26-04\src\player.cpp
+	"otpch.h"
+	<iostream>
+	"player.h"
+	"iologindata.h"
+	"ioban.h"
+	"town.h"
+	"house.h"
+	"beds.h"
+	"combat.h"
+	"gui.h"
+	"movement.h"
+	"weapons.h"
+	"creatureevent.h"
+	"configmanager.h"
+	"game.h"
+	"chat.h"
+
+1650720911 source:c:\users\kyogron\documents\backup26-04\src\playerbox.cpp
+	"otpch.h"
+	"playerbox.h"
+	"gui.h"
+	"player.h"
+	"ioban.h"
+	"game.h"
+
+1650721028 source:c:\users\kyogron\documents\backup26-04\src\position.cpp
+	"otpch.h"
+	<iomanip>
+	"position.h"
+
+1650721026 source:c:\users\kyogron\documents\backup26-04\src\protocol.cpp
+	"otpch.h"
+	<winerror.h>
+	"protocol.h"
+	"scheduler.h"
+	"connection.h"
+	"outputmessage.h"
+	"tools.h"
+	"rsa.h"
+
+1650720917 source:c:\users\kyogron\documents\backup26-04\src\protocolgame.cpp
+	"otpch.h"
+	"resources.h"
+	<boost/function.hpp>
+	<iostream>
+	"protocolgame.h"
+	"textlogger.h"
+	"waitlist.h"
+	"player.h"
+	"connection.h"
+	"networkmessage.h"
+	"outputmessage.h"
+	"iologindata.h"
+	"ioban.h"
+	"items.h"
+	"tile.h"
+	"house.h"
+	"actions.h"
+	"creatureevent.h"
+	"quests.h"
+	"chat.h"
+	"configmanager.h"
+	"game.h"
+	"gui.h"
+
+1650720915 c:\users\kyogron\documents\backup26-04\src\waitlist.h
+
+1650720912 source:c:\users\kyogron\documents\backup26-04\src\protocollogin.cpp
+	"otpch.h"
+	"resources.h"
+	<iomanip>
+	"protocollogin.h"
+	"tools.h"
+	"rsa.h"
+	"iologindata.h"
+	"ioban.h"
+	"gui.h"
+	"outputmessage.h"
+	"connection.h"
+	"configmanager.h"
+	"game.h"
+
+1650720907 source:c:\users\kyogron\documents\backup26-04\src\protocolold.cpp
+	"otpch.h"
+	"resources.h"
+	"protocolold.h"
+	"rsa.h"
+	"outputmessage.h"
+	"connection.h"
+	"gui.h"
+	"game.h"
+
+1650720917 source:c:\users\kyogron\documents\backup26-04\src\quests.cpp
+	"otpch.h"
+	"quests.h"
+	"tools.h"
+
+1650721014 source:c:\users\kyogron\documents\backup26-04\src\raids.cpp
+	"otpch.h"
+	"raids.h"
+	"player.h"
+	"game.h"
+	"configmanager.h"
+
+1650720932 source:c:\users\kyogron\documents\backup26-04\src\rsa.cpp
+	"otpch.h"
+	"rsa.h"
+
+1650720919 source:c:\users\kyogron\documents\backup26-04\src\scheduler.cpp
+	"otpch.h"
+	"scheduler.h"
+	"exception.h"
+
+1650720911 source:c:\users\kyogron\documents\backup26-04\src\scriptmanager.cpp
+	"otpch.h"
+	"scriptmanager.h"
+	<boost/filesystem.hpp>
+	<libxml/xmlmemory.h>
+	<libxml/parser.h>
+	"actions.h"
+	"movement.h"
+	"spells.h"
+	"talkaction.h"
+	"creatureevent.h"
+	"globalevent.h"
+	"weapons.h"
+	"monsters.h"
+	"spawn.h"
+	"raids.h"
+	"group.h"
+	"vocation.h"
+	"outfit.h"
+	"quests.h"
+	"items.h"
+	"chat.h"
+	"configmanager.h"
+	"luascript.h"
+
+1650721034 source:c:\users\kyogron\documents\backup26-04\src\server.cpp
+	"otpch.h"
+	"server.h"
+	"connection.h"
+	"outputmessage.h"
+	"textlogger.h"
+	"game.h"
+	"configmanager.h"
+
+1650721029 source:c:\users\kyogron\documents\backup26-04\src\sha1.cpp
+	"otpch.h"
+	"sha1.h"
+
+1650721027 c:\users\kyogron\documents\backup26-04\src\sha1.h
+
+1650721026 source:c:\users\kyogron\documents\backup26-04\src\spawn.cpp
+	"otpch.h"
+	<libxml/xmlmemory.h>
+	<libxml/parser.h>
+	"spawn.h"
+	"tools.h"
+	"player.h"
+	"npc.h"
+	"configmanager.h"
+	"game.h"
+
+1650721036 source:c:\users\kyogron\documents\backup26-04\src\spells.cpp
+	"otpch.h"
+	"const.h"
+	<libxml/xmlmemory.h>
+	<libxml/parser.h>
+	"spells.h"
+	"tools.h"
+	"house.h"
+	"housetile.h"
+	"combat.h"
+	"monsters.h"
+	"configmanager.h"
+	"game.h"
+
+1650721026 source:c:\users\kyogron\documents\backup26-04\src\status.cpp
+	"otpch.h"
+	"resources.h"
+	<libxml/xmlmemory.h>
+	<libxml/parser.h>
+	"status.h"
+	"tools.h"
+	"connection.h"
+	"networkmessage.h"
+	"outputmessage.h"
+	"configmanager.h"
+	"game.h"
+
+1650720923 source:c:\users\kyogron\documents\backup26-04\src\talkaction.cpp
+	"otpch.h"
+	"talkaction.h"
+	<boost/config.hpp>
+	<boost/version.hpp>
+	"iologindata.h"
+	"ioban.h"
+	"player.h"
+	"npc.h"
+	"house.h"
+	"town.h"
+	"teleport.h"
+	"status.h"
+	"textlogger.h"
+	"outputmessage.h"
+	"connection.h"
+	"admin.h"
+	"protocollogin.h"
+	"protocolold.h"
+	"configmanager.h"
+	"game.h"
+	"chat.h"
+	"tools.h"
+
+1650721024 source:c:\users\kyogron\documents\backup26-04\src\tasks.cpp
+	"otpch.h"
+	"tasks.h"
+	"outputmessage.h"
+	"exception.h"
+	"game.h"
+
+1650720921 source:c:\users\kyogron\documents\backup26-04\src\teleport.cpp
+	"otpch.h"
+	"teleport.h"
+	"game.h"
+
+1650720925 source:c:\users\kyogron\documents\backup26-04\src\textlogger.cpp
+	"otpch.h"
+	"textlogger.h"
+	"tools.h"
+	"gui.h"
+
+1650720920 source:c:\users\kyogron\documents\backup26-04\src\thing.cpp
+	"otpch.h"
+	"thing.h"
+	"cylinder.h"
+	"tile.h"
+	"item.h"
+	"creature.h"
+	"player.h"
+
+1650720910 source:c:\users\kyogron\documents\backup26-04\src\tile.cpp
+	"otpch.h"
+	<iostream>
+	"tile.h"
+	"housetile.h"
+	"player.h"
+	"creature.h"
+	"teleport.h"
+	"trashholder.h"
+	"mailbox.h"
+	"combat.h"
+	"movement.h"
+	"game.h"
+	"configmanager.h"
+
+1650721037 source:c:\users\kyogron\documents\backup26-04\src\tools.cpp
+	"otpch.h"
+	<iostream>
+	<iomanip>
+	"tools.h"
+	"md5.h"
+	"sha1.h"
+	"vocation.h"
+	"configmanager.h"
+
+1650720913 source:c:\users\kyogron\documents\backup26-04\src\trashholder.cpp
+	"otpch.h"
+	"trashholder.h"
+	"game.h"
+	"spells.h"
+
+1650721029 source:c:\users\kyogron\documents\backup26-04\src\vocation.cpp
+	"otpch.h"
+	<iostream>
+	<libxml/xmlmemory.h>
+	<libxml/parser.h>
+	"vocation.h"
+	"tools.h"
+
+1650721035 source:c:\users\kyogron\documents\backup26-04\src\waitlist.cpp
+	"otpch.h"
+	"waitlist.h"
+	"player.h"
+	"configmanager.h"
+	"game.h"
+
+1650721032 source:c:\users\kyogron\documents\backup26-04\src\weapons.cpp
+	"otpch.h"
+	"weapons.h"
+	<libxml/xmlmemory.h>
+	<libxml/parser.h>
+	"game.h"
+	"configmanager.h"
+	"tools.h"
+
+1651336952 source:c:\users\kyogron\documents\backup30-04\src\actions.cpp
+	"otpch.h"
+	"const.h"
+	"actions.h"
+	"tools.h"
+	"player.h"
+	"monster.h"
+	"npc.h"
+	"item.h"
+	"container.h"
+	"game.h"
+	"configmanager.h"
+	"combat.h"
+	"spells.h"
+	"house.h"
+	"beds.h"
+	<libxml/xmlmemory.h>
+	<libxml/parser.h>
+
+1651336961 c:\users\kyogron\documents\backup30-04\src\otpch.h
+	<winerror.h>
+	<libxml/xmlmemory.h>
+	<libxml/parser.h>
+	<libxml/threads.h>
+	<boost/config.hpp>
+	<boost/function.hpp>
+	<boost/bind.hpp>
+	<boost/regex.hpp>
+	<boost/tokenizer.hpp>
+	"thing.h"
+
+1651336974 c:\users\kyogron\documents\backup30-04\src\thing.h
+	"position.h"
+
+1651336950 c:\users\kyogron\documents\backup30-04\src\position.h
+	<stdlib.h>
+	<cmath>
+	<iostream>
+	<vector>
+
+1651768554 c:\users\kyogron\documents\backup30-04\src\const.h
+	"definitions.h"
+
+1651336979 c:\users\kyogron\documents\backup30-04\src\definitions.h
+	"exception.h"
+	<cstring>
+
+1651336983 c:\users\kyogron\documents\backup30-04\src\exception.h
+	"otsystem.h"
+
+1651336963 c:\users\kyogron\documents\backup30-04\src\otsystem.h
+	"definitions.h"
+	<string>
+	<algorithm>
+	<bitset>
+	<queue>
+	<set>
+	<vector>
+	<list>
+	<map>
+	<limits>
+	<boost/utility.hpp>
+	<boost/asio.hpp>
+	<boost/thread.hpp>
+	<boost/foreach.hpp>
+	<boost/shared_ptr.hpp>
+	<stddef.h>
+	<stdlib.h>
+	<stdint.h>
+	<time.h>
+	<assert.h>
+	<windows.h>
+	<sys/timeb.h>
+	<sys/timeb.h>
+	<sys/types.h>
+	<sys/socket.h>
+	<unistd.h>
+	<time.h>
+	<netdb.h>
+	<errno.h>
+	<arpa/inet.h>
+	<netinet/in.h>
+
+1651336978 c:\users\kyogron\documents\backup30-04\src\actions.h
+	"baseevents.h"
+	"luascript.h"
+	"thing.h"
+
+1651336945 c:\users\kyogron\documents\backup30-04\src\baseevents.h
+	"otsystem.h"
+	"luascript.h"
+	<libxml/parser.h>
+
+1651336949 c:\users\kyogron\documents\backup30-04\src\luascript.h
+	"otsystem.h"
+	"lua.h"
+	"lualib.h"
+	"lauxlib.h"
+	"database.h"
+	"position.h"
+
+1651336958 c:\users\kyogron\documents\backup30-04\src\database.h
+	"otsystem.h"
+	"enums.h"
+	<sstream>
+	"databasemysql.h"
+	"databasesqlite.h"
+	"databaseodbc.h"
+	"databasepgsql.h"
+
+1651336967 c:\users\kyogron\documents\backup30-04\src\enums.h
+	<string>
+	<list>
+
+1651336973 c:\users\kyogron\documents\backup30-04\src\databasemysql.h
+	<winsock2.h>
+	<mysql.h>
+	<mysql/mysql.h>
+	<sstream>
+	<map>
+
+1651336965 c:\users\kyogron\documents\backup30-04\src\databasesqlite.h
+	<sqlite3.h>
+	<sstream>
+	<map>
+
+1651336956 c:\users\kyogron\documents\backup30-04\src\databaseodbc.h
+	<windows.h>
+	<sqltypes.h>
+	<sql.h>
+	<sqlext.h>
+
+1651336927 c:\users\kyogron\documents\backup30-04\src\databasepgsql.h
+	<postgresql/libpq-fe.h>
+
+1651336973 c:\users\kyogron\documents\backup30-04\src\tools.h
+	"otsystem.h"
+	"enums.h"
+	"const.h"
+	<libxml/parser.h>
+	<boost/tokenizer.hpp>
+	"position.h"
+
+1651336974 c:\users\kyogron\documents\backup30-04\src\player.h
+	"otsystem.h"
+	"enums.h"
+	"creature.h"
+	"cylinder.h"
+	"container.h"
+	"depot.h"
+	"outfit.h"
+	"vocation.h"
+	"group.h"
+	"protocolgame.h"
+	"ioguild.h"
+	"party.h"
+	"npc.h"
+
+1651336943 c:\users\kyogron\documents\backup30-04\src\creature.h
+	"otsystem.h"
+	"templates.h"
+	<boost/any.hpp>
+	"const.h"
+	"enums.h"
+	"map.h"
+	"condition.h"
+	"creatureevent.h"
+
+1651336975 c:\users\kyogron\documents\backup30-04\src\templates.h
+	"otsystem.h"
+
+1651769073 c:\users\kyogron\documents\backup30-04\src\map.h
+	"tools.h"
+	"fileloader.h"
+	"position.h"
+	"waypoints.h"
+	"tile.h"
+
+1651336987 c:\users\kyogron\documents\backup30-04\src\fileloader.h
+	"otsystem.h"
+
+1651336957 c:\users\kyogron\documents\backup30-04\src\waypoints.h
+	"otsystem.h"
+
+1651336975 c:\users\kyogron\documents\backup30-04\src\tile.h
+	<boost/shared_ptr.hpp>
+	"cylinder.h"
+	"item.h"
+
+1651336944 c:\users\kyogron\documents\backup30-04\src\cylinder.h
+	"otsystem.h"
+
+1651336931 c:\users\kyogron\documents\backup30-04\src\item.h
+	"otsystem.h"
+	<libxml/xmlmemory.h>
+	<libxml/parser.h>
+	"thing.h"
+	"itemattributes.h"
+	"items.h"
+	"raids.h"
+
+1651336927 c:\users\kyogron\documents\backup30-04\src\itemattributes.h
+	"otsystem.h"
+	<boost/any.hpp>
+
+1651336936 c:\users\kyogron\documents\backup30-04\src\items.h
+	"otsystem.h"
+	"itemloader.h"
+	"const.h"
+	"enums.h"
+	"position.h"
+	<libxml/parser.h>
+
+1651336949 c:\users\kyogron\documents\backup30-04\src\itemloader.h
+	"fileloader.h"
+
+1651336976 c:\users\kyogron\documents\backup30-04\src\raids.h
+	"otsystem.h"
+	"const.h"
+	<libxml/xmlmemory.h>
+	<libxml/parser.h>
+	"baseevents.h"
+	"position.h"
+	"tools.h"
+
+1651336972 c:\users\kyogron\documents\backup30-04\src\condition.h
+	"otsystem.h"
+	"const.h"
+	"enums.h"
+	<libxml/xmlmemory.h>
+	<libxml/parser.h>
+	"fileloader.h"
+
+1651336954 c:\users\kyogron\documents\backup30-04\src\creatureevent.h
+	"enums.h"
+	"baseevents.h"
+	"tile.h"
+
+1651336962 c:\users\kyogron\documents\backup30-04\src\container.h
+	"otsystem.h"
+	"cylinder.h"
+	"item.h"
+
+1651336968 c:\users\kyogron\documents\backup30-04\src\depot.h
+	"container.h"
+
+1651336931 c:\users\kyogron\documents\backup30-04\src\outfit.h
+	"otsystem.h"
+	"enums.h"
+
+1651336928 c:\users\kyogron\documents\backup30-04\src\vocation.h
+	"otsystem.h"
+	"enums.h"
+
+1651336959 c:\users\kyogron\documents\backup30-04\src\group.h
+	"otsystem.h"
+
+1651336932 c:\users\kyogron\documents\backup30-04\src\protocolgame.h
+	"otsystem.h"
+	"enums.h"
+	"protocol.h"
+	"creature.h"
+
+1651336955 c:\users\kyogron\documents\backup30-04\src\protocol.h
+	"otsystem.h"
+	"rsa.h"
+
+1651336946 c:\users\kyogron\documents\backup30-04\src\rsa.h
+	"otsystem.h"
+	"gmp.h"
+
+1651336946 c:\users\kyogron\documents\backup30-04\src\ioguild.h
+	"otsystem.h"
+	"player.h"
+
+1651336958 c:\users\kyogron\documents\backup30-04\src\party.h
+	"player.h"
+
+1651336931 c:\users\kyogron\documents\backup30-04\src\npc.h
+	"templates.h"
+	"const.h"
+	"creature.h"
+	"luascript.h"
+
+1651336935 c:\users\kyogron\documents\backup30-04\src\monster.h
+	"monsters.h"
+	"raids.h"
+	"tile.h"
+
+1651336952 c:\users\kyogron\documents\backup30-04\src\monsters.h
+	"otsystem.h"
+	"creature.h"
+
+1651336953 c:\users\kyogron\documents\backup30-04\src\game.h
+	"otsystem.h"
+	"enums.h"
+	"templates.h"
+	"scheduler.h"
+	"map.h"
+	"spawn.h"
+	"item.h"
+	"player.h"
+	"npc.h"
+	"monster.h"
+
+1651336958 c:\users\kyogron\documents\backup30-04\src\scheduler.h
+	"otsystem.h"
+	"tasks.h"
+
+1651336961 c:\users\kyogron\documents\backup30-04\src\tasks.h
+	"otsystem.h"
+	<boost/function.hpp>
+
+1651336979 c:\users\kyogron\documents\backup30-04\src\spawn.h
+	"otsystem.h"
+	"templates.h"
+	"position.h"
+	"tile.h"
+	"monster.h"
+
+1651336986 c:\users\kyogron\documents\backup30-04\src\configmanager.h
+	"luascript.h"
+
+1651336980 c:\users\kyogron\documents\backup30-04\src\combat.h
+	"otsystem.h"
+	"baseevents.h"
+	"condition.h"
+	"map.h"
+
+1651336955 c:\users\kyogron\documents\backup30-04\src\spells.h
+	"otsystem.h"
+	"enums.h"
+	"player.h"
+	"luascript.h"
+	"baseevents.h"
+	"actions.h"
+	"talkaction.h"
+
+1651336936 c:\users\kyogron\documents\backup30-04\src\talkaction.h
+	"otsystem.h"
+	"enums.h"
+	"player.h"
+	"tools.h"
+	"luascript.h"
+	"baseevents.h"
+
+1651336945 c:\users\kyogron\documents\backup30-04\src\house.h
+	"otsystem.h"
+	<boost/regex.hpp>
+	<boost/tr1/unordered_set.hpp>
+	"position.h"
+	"housetile.h"
+	"player.h"
+
+1651336933 c:\users\kyogron\documents\backup30-04\src\housetile.h
+	"tile.h"
+
+1651336947 c:\users\kyogron\documents\backup30-04\src\beds.h
+	"item.h"
+
+1651336977 source:c:\users\kyogron\documents\backup30-04\src\admin.cpp
+	"otpch.h"
+	<iostream>
+	"admin.h"
+	"rsa.h"
+	"tools.h"
+	"configmanager.h"
+	"game.h"
+	"connection.h"
+	"outputmessage.h"
+	"networkmessage.h"
+	"house.h"
+	"town.h"
+	"iologindata.h"
+
+1651336934 c:\users\kyogron\documents\backup30-04\src\admin.h
+	"otsystem.h"
+	"textlogger.h"
+	"player.h"
+
+1651336953 c:\users\kyogron\documents\backup30-04\src\textlogger.h
+	"otsystem.h"
+	<ostream>
+	<fstream>
+
+1651336963 c:\users\kyogron\documents\backup30-04\src\connection.h
+	"otsystem.h"
+	"networkmessage.h"
+	<boost/utility.hpp>
+	<boost/enable_shared_from_this.hpp>
+
+1651336941 c:\users\kyogron\documents\backup30-04\src\networkmessage.h
+	"otsystem.h"
+	"const.h"
+
+1651336927 c:\users\kyogron\documents\backup30-04\src\outputmessage.h
+	"otsystem.h"
+	"tools.h"
+	"connection.h"
+	"networkmessage.h"
+	<iostream>
+	<sstream>
+
+1651336980 c:\users\kyogron\documents\backup30-04\src\town.h
+	"otsystem.h"
+
+1651336961 c:\users\kyogron\documents\backup30-04\src\iologindata.h
+	"otsystem.h"
+	"database.h"
+	"creature.h"
+	"player.h"
+	"account.h"
+	"group.h"
+
+1651336934 c:\users\kyogron\documents\backup30-04\src\account.h
+	"otsystem.h"
+	"gameservers.h"
+
+1651336956 c:\users\kyogron\documents\backup30-04\src\gameservers.h
+	"otsystem.h"
+	"resources.h"
+	"const.h"
+
+1651336969 c:\users\kyogron\documents\backup30-04\src\resources.h
+	"definitions.h"
+
+1651336959 source:c:\users\kyogron\documents\backup30-04\src\allocator.cpp
+	"otpch.h"
+	"allocator.h"
+
+1651336945 c:\users\kyogron\documents\backup30-04\src\allocator.h
+	"otsystem.h"
+	<boost/pool/pool.hpp>
+	<memory>
+	<cstdlib>
+	<fstream>
+
+1651336987 source:c:\users\kyogron\documents\backup30-04\src\area.cpp
+	"otpch.h"
+	"const.h"
+	"area.h"
+	"tools.h"
+	"game.h"
+	"configmanager.h"
+	"creature.h"
+	"player.h"
+
+1651336931 c:\users\kyogron\documents\backup30-04\src\area.h
+
+1651336964 source:c:\users\kyogron\documents\backup30-04\src\baseevents.cpp
+	"otpch.h"
+	<libxml/xmlmemory.h>
+	"baseevents.h"
+	"tools.h"
+
+1651336958 source:c:\users\kyogron\documents\backup30-04\src\beds.cpp
+	"otpch.h"
+	"beds.h"
+	"house.h"
+	"player.h"
+	"iologindata.h"
+	"game.h"
+	"configmanager.h"
+
+1651336958 source:c:\users\kyogron\documents\backup30-04\src\chat.cpp
+	"otpch.h"
+	"chat.h"
+	"player.h"
+	"iologindata.h"
+	"configmanager.h"
+	"game.h"
+
+1651336936 c:\users\kyogron\documents\backup30-04\src\chat.h
+	"otsystem.h"
+	<fstream>
+	"const.h"
+	"party.h"
+
+1651336935 source:c:\users\kyogron\documents\backup30-04\src\combat.cpp
+	"otpch.h"
+	"const.h"
+	"combat.h"
+	"tools.h"
+	"game.h"
+	"configmanager.h"
+	"creature.h"
+	"player.h"
+	"weapons.h"
+
+1651336934 c:\users\kyogron\documents\backup30-04\src\weapons.h
+	"otsystem.h"
+	"const.h"
+	"combat.h"
+	"baseevents.h"
+	"luascript.h"
+	"player.h"
+	"item.h"
+
+1651336973 source:c:\users\kyogron\documents\backup30-04\src\condition.cpp
+	"otpch.h"
+	"condition.h"
+	"tools.h"
+	"game.h"
+	"creature.h"
+	"combat.h"
+
+1651336967 source:c:\users\kyogron\documents\backup30-04\src\configmanager.cpp
+	"otpch.h"
+	<iostream>
+	"configmanager.h"
+	"tools.h"
+
+1651336976 source:c:\users\kyogron\documents\backup30-04\src\connection.cpp
+	"otpch.h"
+	"connection.h"
+	"protocol.h"
+	"protocolgame.h"
+	"protocolold.h"
+	"admin.h"
+	"status.h"
+	"outputmessage.h"
+	"scheduler.h"
+	"server.h"
+	"configmanager.h"
+	"tools.h"
+	"textlogger.h"
+
+1651336947 c:\users\kyogron\documents\backup30-04\src\protocolold.h
+	"protocol.h"
+
+1651336952 c:\users\kyogron\documents\backup30-04\src\status.h
+	"otsystem.h"
+	"protocol.h"
+
+1651336966 c:\users\kyogron\documents\backup30-04\src\server.h
+	"otsystem.h"
+	<boost/enable_shared_from_this.hpp>
+
+1651336957 source:c:\users\kyogron\documents\backup30-04\src\container.cpp
+	"otpch.h"
+	"container.h"
+	"game.h"
+	"iomap.h"
+	"player.h"
+
+1651336946 c:\users\kyogron\documents\backup30-04\src\iomap.h
+	"status.h"
+	"map.h"
+	"house.h"
+	"spawn.h"
+	"item.h"
+
+1651336939 source:c:\users\kyogron\documents\backup30-04\src\creature.cpp
+	"otpch.h"
+	"creature.h"
+	"player.h"
+	"npc.h"
+	"monster.h"
+	"condition.h"
+	"combat.h"
+	"container.h"
+	"exception.h"
+	"configmanager.h"
+	"game.h"
+
+1651336978 source:c:\users\kyogron\documents\backup30-04\src\creatureevent.cpp
+	"otpch.h"
+	<sstream>
+	"creatureevent.h"
+	"player.h"
+	"tools.h"
+
+1651336961 source:c:\users\kyogron\documents\backup30-04\src\cylinder.cpp
+	"otpch.h"
+	"cylinder.h"
+
+1651336930 source:c:\users\kyogron\documents\backup30-04\src\database.cpp
+	"otpch.h"
+	<string>
+	"database.h"
+	"databasemysql.h"
+	"databasesqlite.h"
+	"databaseodbc.h"
+	"databasepgsql.h"
+	"configmanager.h"
+
+1651336966 source:c:\users\kyogron\documents\backup30-04\src\databasemanager.cpp
+	"otpch.h"
+	"enums.h"
+	<iostream>
+	"databasemanager.h"
+	"tools.h"
+	"configmanager.h"
+
+1651336938 c:\users\kyogron\documents\backup30-04\src\databasemanager.h
+	"database.h"
+
+1651336974 source:c:\users\kyogron\documents\backup30-04\src\databasemysql.cpp
+	"otpch.h"
+	"scheduler.h"
+	"database.h"
+	"databasemysql.h"
+	"errmsg.h"
+	<mysql/errmsg.h>
+	<iostream>
+	"configmanager.h"
+
+1651336953 source:c:\users\kyogron\documents\backup30-04\src\databasesqlite.cpp
+	"otpch.h"
+	<iostream>
+	<boost/regex.hpp>
+	"database.h"
+	"databasesqlite.h"
+	"tools.h"
+	"configmanager.h"
+
+1651336932 source:c:\users\kyogron\documents\backup30-04\src\depot.cpp
+	"otpch.h"
+	"depot.h"
+	"tools.h"
+
+1651336960 source:c:\users\kyogron\documents\backup30-04\src\exception.cpp
+	"otpch.h"
+	"exception.h"
+	<iostream>
+	<iomanip>
+	<fstream>
+	<excpt.h>
+	<tlhelp32.h>
+	<boost/config.hpp>
+	"tools.h"
+	"configmanager.h"
+
+1651336974 source:c:\users\kyogron\documents\backup30-04\src\fileloader.cpp
+	"otpch.h"
+	"fileloader.h"
+
+1651336973 source:c:\users\kyogron\documents\backup30-04\src\game.cpp
+	"otpch.h"
+	"game.h"
+	"configmanager.h"
+	"gameservers.h"
+	"server.h"
+	"chat.h"
+	"luascript.h"
+	"creature.h"
+	"combat.h"
+	"tile.h"
+	"database.h"
+	"iologindata.h"
+	"ioban.h"
+	"ioguild.h"
+	"items.h"
+	"container.h"
+	"monsters.h"
+	"house.h"
+	"quests.h"
+	"actions.h"
+	"globalevent.h"
+	"movement.h"
+	"raids.h"
+	"scriptmanager.h"
+	"spells.h"
+	"talkaction.h"
+	"weapons.h"
+	"vocation.h"
+	"group.h"
+	"exception.h"
+
+1651336977 c:\users\kyogron\documents\backup30-04\src\ioban.h
+	"otsystem.h"
+	"enums.h"
+
+1651336946 c:\users\kyogron\documents\backup30-04\src\quests.h
+	"otsystem.h"
+	"networkmessage.h"
+	"player.h"
+
+1651336957 c:\users\kyogron\documents\backup30-04\src\globalevent.h
+	"baseevents.h"
+	"const.h"
+	"scheduler.h"
+
+1651336941 c:\users\kyogron\documents\backup30-04\src\movement.h
+	"baseevents.h"
+	"creature.h"
+
+1651336973 c:\users\kyogron\documents\backup30-04\src\scriptmanager.h
+	"otsystem.h"
+
+1651336968 source:c:\users\kyogron\documents\backup30-04\src\gameservers.cpp
+	"otpch.h"
+	<iostream>
+	<libxml/xmlmemory.h>
+	<libxml/parser.h>
+	"gameservers.h"
+	"tools.h"
+
+1651336968 source:c:\users\kyogron\documents\backup30-04\src\globalevent.cpp
+	"otpch.h"
+	<libxml/xmlmemory.h>
+	<libxml/parser.h>
+	"globalevent.h"
+	"tools.h"
+	"player.h"
+
+1651336949 source:c:\users\kyogron\documents\backup30-04\src\group.cpp
+	"otpch.h"
+	<iostream>
+	<libxml/xmlmemory.h>
+	<libxml/parser.h>
+	"group.h"
+	"tools.h"
+
+1651336978 source:c:\users\kyogron\documents\backup30-04\src\gui.cpp
+	"gui.h"
+	<tchar.h>
+
+1651336977 c:\users\kyogron\documents\backup30-04\src\gui.h
+	"definitions.h"
+	"resources.h"
+	"playerbox.h"
+
+1651336960 c:\users\kyogron\documents\backup30-04\src\playerbox.h
+	"otsystem.h"
+
+1651336939 source:c:\users\kyogron\documents\backup30-04\src\gui_resources.rc
+	"resources.h"
+	<windows.h>
+
+1651336962 source:c:\users\kyogron\documents\backup30-04\src\house.cpp
+	"otpch.h"
+	"house.h"
+	"tools.h"
+	"database.h"
+	"beds.h"
+	"town.h"
+	"iologindata.h"
+	"ioguild.h"
+	"iomapserialize.h"
+	"configmanager.h"
+	"game.h"
+
+1651336975 c:\users\kyogron\documents\backup30-04\src\iomapserialize.h
+	"otsystem.h"
+	"database.h"
+	"map.h"
+
+1651336971 source:c:\users\kyogron\documents\backup30-04\src\housetile.cpp
+	"otpch.h"
+	"housetile.h"
+	"house.h"
+	"game.h"
+	"configmanager.h"
+
+1651336955 source:c:\users\kyogron\documents\backup30-04\src\inputbox.cpp
+	"inputbox.h"
+
+1651336928 c:\users\kyogron\documents\backup30-04\src\inputbox.h
+	"otsystem.h"
+	<tchar.h>
+
+1651336939 source:c:\users\kyogron\documents\backup30-04\src\ioban.cpp
+	"otpch.h"
+	"ioban.h"
+	"tools.h"
+	"database.h"
+	"iologindata.h"
+
+1651336972 source:c:\users\kyogron\documents\backup30-04\src\ioguild.cpp
+	"otpch.h"
+	"ioguild.h"
+	"database.h"
+	"configmanager.h"
+	"game.h"
+
+1651336970 source:c:\users\kyogron\documents\backup30-04\src\iologindata.cpp
+	"otpch.h"
+	<iostream>
+	<iomanip>
+	"iologindata.h"
+	"tools.h"
+	"gameservers.h"
+	"town.h"
+	"house.h"
+	"item.h"
+	"vocation.h"
+	"configmanager.h"
+	"game.h"
+
+1651336951 source:c:\users\kyogron\documents\backup30-04\src\iomap.cpp
+	"otpch.h"
+	"iomap.h"
+	"fileloader.h"
+	"map.h"
+	"town.h"
+	"tile.h"
+	"item.h"
+	"container.h"
+	"depot.h"
+	"teleport.h"
+	"beds.h"
+	"game.h"
+
+1651336927 c:\users\kyogron\documents\backup30-04\src\teleport.h
+	"tile.h"
+
+1651336971 source:c:\users\kyogron\documents\backup30-04\src\iomapserialize.cpp
+	"otpch.h"
+	"iomapserialize.h"
+	"house.h"
+	"iologindata.h"
+	"configmanager.h"
+	"game.h"
+
+1651336986 source:c:\users\kyogron\documents\backup30-04\src\item.cpp
+	"otpch.h"
+	<iostream>
+	<iomanip>
+	"item.h"
+	"container.h"
+	"depot.h"
+	"teleport.h"
+	"trashholder.h"
+	"mailbox.h"
+	"luascript.h"
+	"combat.h"
+	"house.h"
+	"beds.h"
+	"actions.h"
+	"configmanager.h"
+	"game.h"
+	"movement.h"
+
+1651336929 c:\users\kyogron\documents\backup30-04\src\trashholder.h
+	"tile.h"
+	"const.h"
+
+1651336979 c:\users\kyogron\documents\backup30-04\src\mailbox.h
+	"const.h"
+	"cylinder.h"
+	"item.h"
+
+1651336940 source:c:\users\kyogron\documents\backup30-04\src\itemattributes.cpp
+	"otpch.h"
+	"itemattributes.h"
+	"fileloader.h"
+
+1651336984 source:c:\users\kyogron\documents\backup30-04\src\items.cpp
+	"otpch.h"
+	<iostream>
+	<libxml/xmlmemory.h>
+	"items.h"
+	"condition.h"
+	"weapons.h"
+	"configmanager.h"
+	"spells.h"
+
+1651336970 source:c:\users\kyogron\documents\backup30-04\src\luascript.cpp
+	"otpch.h"
+	"luascript.h"
+	"scriptmanager.h"
+	<boost/filesystem.hpp>
+	<boost/any.hpp>
+	<iostream>
+	<iomanip>
+	"player.h"
+	"item.h"
+	"teleport.h"
+	"area.h"
+	"town.h"
+	"house.h"
+	"housetile.h"
+	"database.h"
+	"iologindata.h"
+	"ioban.h"
+	"iomapserialize.h"
+	"talkaction.h"
+	"spells.h"
+	"combat.h"
+	"condition.h"
+	"baseevents.h"
+	"monsters.h"
+	"raids.h"
+	"configmanager.h"
+	"vocation.h"
+	"status.h"
+	"game.h"
+	"chat.h"
+	"spawn.h"
+
+1651336977 source:c:\users\kyogron\documents\backup30-04\src\mailbox.cpp
+	"otpch.h"
+	"mailbox.h"
+	"player.h"
+	"iologindata.h"
+	"depot.h"
+	"town.h"
+	"configmanager.h"
+	"game.h"
+
+1651336962 source:c:\users\kyogron\documents\backup30-04\src\map.cpp
+	"otpch.h"
+	<iomanip>
+	<boost/config.hpp>
+	<boost/bind.hpp>
+	"iomap.h"
+	"map.h"
+	"tile.h"
+	"creature.h"
+	"player.h"
+	"combat.h"
+	"iomapserialize.h"
+	"items.h"
+	"game.h"
+
+1651336969 source:c:\users\kyogron\documents\backup30-04\src\md5.cpp
+	"otpch.h"
+	"md5.h"
+
+1651336937 c:\users\kyogron\documents\backup30-04\src\md5.h
+	"definitions.h"
+
+1651336960 source:c:\users\kyogron\documents\backup30-04\src\monster.cpp
+	"otpch.h"
+	"monster.h"
+	"spawn.h"
+	"monsters.h"
+	"spells.h"
+	"combat.h"
+	"configmanager.h"
+	"game.h"
+	<boost/algorithm/string/replace.hpp>
+
+1651336943 source:c:\users\kyogron\documents\backup30-04\src\monsters.cpp
+	"otpch.h"
+	<libxml/xmlmemory.h>
+	<libxml/parser.h>
+	"monsters.h"
+	"tools.h"
+	"monster.h"
+	"luascript.h"
+	"container.h"
+	"weapons.h"
+	"spells.h"
+	"combat.h"
+	"configmanager.h"
+	"game.h"
+
+1651336978 source:c:\users\kyogron\documents\backup30-04\src\movement.cpp
+	"otpch.h"
+	<libxml/xmlmemory.h>
+	<libxml/parser.h>
+	"movement.h"
+	"tools.h"
+	"creature.h"
+	"player.h"
+	"tile.h"
+	"vocation.h"
+	"combat.h"
+	"game.h"
+
+1651336964 source:c:\users\kyogron\documents\backup30-04\src\networkmessage.cpp
+	"otpch.h"
+	<iostream>
+	"networkmessage.h"
+	"position.h"
+	"rsa.h"
+	"container.h"
+	"creature.h"
+	"player.h"
+
+1651336969 source:c:\users\kyogron\documents\backup30-04\src\npc.cpp
+	"otpch.h"
+	<libxml/xmlmemory.h>
+	<libxml/parser.h>
+	<functional>
+	<iostream>
+	<fstream>
+	"npc.h"
+	"tools.h"
+	"luascript.h"
+	"position.h"
+	"spells.h"
+	"vocation.h"
+	"configmanager.h"
+	"game.h"
+
+1651336964 source:c:\users\kyogron\documents\backup30-04\src\outfit.cpp
+	"otpch.h"
+	<libxml/xmlmemory.h>
+	<libxml/parser.h>
+	"outfit.h"
+	"tools.h"
+	"player.h"
+	"condition.h"
+	"game.h"
+
+1651336965 source:c:\users\kyogron\documents\backup30-04\src\outputmessage.cpp
+	"otpch.h"
+	"scheduler.h"
+	"outputmessage.h"
+	"protocol.h"
+
+1651336985 source:c:\users\kyogron\documents\backup30-04\src\party.cpp
+	"otpch.h"
+	"party.h"
+	"player.h"
+	"chat.h"
+	"game.h"
+	"configmanager.h"
+
+1651336947 source:c:\users\kyogron\documents\backup30-04\src\player.cpp
+	"otpch.h"
+	<iostream>
+	"player.h"
+	"iologindata.h"
+	"ioban.h"
+	"town.h"
+	"house.h"
+	"beds.h"
+	"combat.h"
+	"gui.h"
+	"movement.h"
+	"weapons.h"
+	"creatureevent.h"
+	"configmanager.h"
+	"game.h"
+	"chat.h"
+
+1651336937 source:c:\users\kyogron\documents\backup30-04\src\playerbox.cpp
+	"otpch.h"
+	"playerbox.h"
+	"gui.h"
+	"player.h"
+	"ioban.h"
+	"game.h"
+
+1651336978 source:c:\users\kyogron\documents\backup30-04\src\position.cpp
+	"otpch.h"
+	<iomanip>
+	"position.h"
+
+1651336976 source:c:\users\kyogron\documents\backup30-04\src\protocol.cpp
+	"otpch.h"
+	<winerror.h>
+	"protocol.h"
+	"scheduler.h"
+	"connection.h"
+	"outputmessage.h"
+	"tools.h"
+	"rsa.h"
+
+1651768735 source:c:\users\kyogron\documents\backup30-04\src\protocolgame.cpp
+	"otpch.h"
+	"resources.h"
+	<boost/function.hpp>
+	<iostream>
+	"protocolgame.h"
+	"textlogger.h"
+	"waitlist.h"
+	"player.h"
+	"connection.h"
+	"networkmessage.h"
+	"outputmessage.h"
+	"iologindata.h"
+	"ioban.h"
+	"items.h"
+	"tile.h"
+	"house.h"
+	"actions.h"
+	"creatureevent.h"
+	"quests.h"
+	"chat.h"
+	"configmanager.h"
+	"game.h"
+	"gui.h"
+
+1651336940 c:\users\kyogron\documents\backup30-04\src\waitlist.h
+
+1651336937 source:c:\users\kyogron\documents\backup30-04\src\protocollogin.cpp
+	"otpch.h"
+	"resources.h"
+	<iomanip>
+	"protocollogin.h"
+	"tools.h"
+	"rsa.h"
+	"iologindata.h"
+	"ioban.h"
+	"gui.h"
+	"outputmessage.h"
+	"connection.h"
+	"configmanager.h"
+	"game.h"
+
+1651336983 c:\users\kyogron\documents\backup30-04\src\protocollogin.h
+	"protocol.h"
+
+1651336933 source:c:\users\kyogron\documents\backup30-04\src\protocolold.cpp
+	"otpch.h"
+	"resources.h"
+	"protocolold.h"
+	"rsa.h"
+	"outputmessage.h"
+	"connection.h"
+	"gui.h"
+	"game.h"
+
+1651336942 source:c:\users\kyogron\documents\backup30-04\src\quests.cpp
+	"otpch.h"
+	"quests.h"
+	"tools.h"
+
+1651336965 source:c:\users\kyogron\documents\backup30-04\src\raids.cpp
+	"otpch.h"
+	"raids.h"
+	"player.h"
+	"game.h"
+	"configmanager.h"
+
+1651336951 source:c:\users\kyogron\documents\backup30-04\src\rsa.cpp
+	"otpch.h"
+	"rsa.h"
+
+1651336943 source:c:\users\kyogron\documents\backup30-04\src\scheduler.cpp
+	"otpch.h"
+	"scheduler.h"
+	"exception.h"
+
+1651336937 source:c:\users\kyogron\documents\backup30-04\src\scriptmanager.cpp
+	"otpch.h"
+	"scriptmanager.h"
+	<boost/filesystem.hpp>
+	<libxml/xmlmemory.h>
+	<libxml/parser.h>
+	"actions.h"
+	"movement.h"
+	"spells.h"
+	"talkaction.h"
+	"creatureevent.h"
+	"globalevent.h"
+	"weapons.h"
+	"monsters.h"
+	"spawn.h"
+	"raids.h"
+	"group.h"
+	"vocation.h"
+	"outfit.h"
+	"quests.h"
+	"items.h"
+	"chat.h"
+	"configmanager.h"
+	"luascript.h"
+
+1651336984 source:c:\users\kyogron\documents\backup30-04\src\server.cpp
+	"otpch.h"
+	"server.h"
+	"connection.h"
+	"outputmessage.h"
+	"textlogger.h"
+	"game.h"
+	"configmanager.h"
+
+1651336979 source:c:\users\kyogron\documents\backup30-04\src\sha1.cpp
+	"otpch.h"
+	"sha1.h"
+
+1651336978 c:\users\kyogron\documents\backup30-04\src\sha1.h
+
+1651336977 source:c:\users\kyogron\documents\backup30-04\src\spawn.cpp
+	"otpch.h"
+	<libxml/xmlmemory.h>
+	<libxml/parser.h>
+	"spawn.h"
+	"tools.h"
+	"player.h"
+	"npc.h"
+	"configmanager.h"
+	"game.h"
+
+1651336986 source:c:\users\kyogron\documents\backup30-04\src\spells.cpp
+	"otpch.h"
+	"const.h"
+	<libxml/xmlmemory.h>
+	<libxml/parser.h>
+	"spells.h"
+	"tools.h"
+	"house.h"
+	"housetile.h"
+	"combat.h"
+	"monsters.h"
+	"configmanager.h"
+	"game.h"
+
+1651336977 source:c:\users\kyogron\documents\backup30-04\src\status.cpp
+	"otpch.h"
+	"resources.h"
+	<libxml/xmlmemory.h>
+	<libxml/parser.h>
+	"status.h"
+	"tools.h"
+	"connection.h"
+	"networkmessage.h"
+	"outputmessage.h"
+	"configmanager.h"
+	"game.h"
+
+1651336947 source:c:\users\kyogron\documents\backup30-04\src\talkaction.cpp
+	"otpch.h"
+	"talkaction.h"
+	<boost/config.hpp>
+	<boost/version.hpp>
+	"iologindata.h"
+	"ioban.h"
+	"player.h"
+	"npc.h"
+	"house.h"
+	"town.h"
+	"teleport.h"
+	"status.h"
+	"textlogger.h"
+	"outputmessage.h"
+	"connection.h"
+	"admin.h"
+	"protocollogin.h"
+	"protocolold.h"
+	"configmanager.h"
+	"game.h"
+	"chat.h"
+	"tools.h"
+
+1651336974 source:c:\users\kyogron\documents\backup30-04\src\tasks.cpp
+	"otpch.h"
+	"tasks.h"
+	"outputmessage.h"
+	"exception.h"
+	"game.h"
+
+1651336945 source:c:\users\kyogron\documents\backup30-04\src\teleport.cpp
+	"otpch.h"
+	"teleport.h"
+	"game.h"
+
+1651336950 source:c:\users\kyogron\documents\backup30-04\src\textlogger.cpp
+	"otpch.h"
+	"textlogger.h"
+	"tools.h"
+	"gui.h"
+
+1651336944 source:c:\users\kyogron\documents\backup30-04\src\thing.cpp
+	"otpch.h"
+	"thing.h"
+	"cylinder.h"
+	"tile.h"
+	"item.h"
+	"creature.h"
+	"player.h"
+
+1651336935 source:c:\users\kyogron\documents\backup30-04\src\tile.cpp
+	"otpch.h"
+	<iostream>
+	"tile.h"
+	"housetile.h"
+	"player.h"
+	"creature.h"
+	"teleport.h"
+	"trashholder.h"
+	"mailbox.h"
+	"combat.h"
+	"movement.h"
+	"game.h"
+	"configmanager.h"
+
+1651336987 source:c:\users\kyogron\documents\backup30-04\src\tools.cpp
+	"otpch.h"
+	<iostream>
+	<iomanip>
+	"tools.h"
+	"md5.h"
+	"sha1.h"
+	"vocation.h"
+	"configmanager.h"
+
+1651336939 source:c:\users\kyogron\documents\backup30-04\src\trashholder.cpp
+	"otpch.h"
+	"trashholder.h"
+	"game.h"
+	"spells.h"
+
+1651336980 source:c:\users\kyogron\documents\backup30-04\src\vocation.cpp
+	"otpch.h"
+	<iostream>
+	<libxml/xmlmemory.h>
+	<libxml/parser.h>
+	"vocation.h"
+	"tools.h"
+
+1651336985 source:c:\users\kyogron\documents\backup30-04\src\waitlist.cpp
+	"otpch.h"
+	"waitlist.h"
+	"player.h"
+	"configmanager.h"
+	"game.h"
+
+1651336982 source:c:\users\kyogron\documents\backup30-04\src\weapons.cpp
+	"otpch.h"
+	"weapons.h"
+	<libxml/xmlmemory.h>
+	<libxml/parser.h>
+	"game.h"
+	"configmanager.h"
+	"tools.h"
+
+1651764823 source:c:\users\kyogron\documents\backup30-04\src\otserv.cpp
+	"otpch.h"
+	"otsystem.h"
+	<iostream>
+	<fstream>
+	<iomanip>
+	<unistd.h>
+	<boost/config.hpp>
+	"server.h"
+	"gameservers.h"
+	"networkmessage.h"
+	"game.h"
+	"chat.h"
+	"tools.h"
+	"rsa.h"
+	"textlogger.h"
+	"protocollogin.h"
+	"protocolgame.h"
+	"protocolold.h"
+	"status.h"
+	"admin.h"
+	"configmanager.h"
+	"scriptmanager.h"
+	"databasemanager.h"
+	"iologindata.h"
+	"ioban.h"
+	"outfit.h"
+	"vocation.h"
+	"group.h"
+	"monsters.h"
+	"allocator.h"
+	"exception.h"
+	"shellapi.h"
+	"gui.h"
+	"inputbox.h"
+	"commctrl.h"
+	"resources.h"
+	<exception>
+

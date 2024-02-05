@@ -1,0 +1,123 @@
+<?xml version="1.0"?>
+<houses>
+	<house name="" houseid="89" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="0" />
+	<house name="" houseid="90" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="1" />
+	<house name="" houseid="91" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="1" />
+	<house name="" houseid="92" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="1" />
+	<house name="" houseid="93" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="1" />
+	<house name="" houseid="94" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="1" />
+	<house name="" houseid="95" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="1" />
+	<house name="" houseid="96" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="0" />
+	<house name="" houseid="97" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="0" />
+	<house name="" houseid="98" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="1" />
+	<house name="" houseid="99" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="3" />
+	<house name="" houseid="100" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="0" />
+	<house name="" houseid="101" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="0" />
+	<house name="" houseid="102" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="1" />
+	<house name="" houseid="103" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="0" />
+	<house name="" houseid="104" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="1" />
+	<house name="" houseid="105" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="1" />
+	<house name="" houseid="106" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="1" />
+	<house name="" houseid="107" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="1" />
+	<house name="" houseid="108" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="0" />
+	<house name="" houseid="109" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="0" />
+	<house name="" houseid="110" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="0" />
+	<house name="" houseid="111" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="1" />
+	<house name="" houseid="112" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="1" />
+	<house name="" houseid="115" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="1" />
+	<house name="" houseid="116" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="0" />
+	<house name="" houseid="118" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="0" />
+	<house name="" houseid="119" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="3" />
+	<house name="" houseid="120" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="1" />
+	<house name="" houseid="122" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="0" />
+	<house name="" houseid="123" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="0" />
+	<house name="" houseid="124" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="3" />
+	<house name="" houseid="125" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="0" />
+	<house name="" houseid="126" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="0" />
+	<house name="" houseid="127" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="0" />
+	<house name="" houseid="128" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="1" />
+	<house name="" houseid="129" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="0" />
+	<house name="" houseid="130" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="0" />
+	<house name="" houseid="131" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="0" />
+	<house name="" houseid="132" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="1" />
+	<house name="" houseid="133" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="1" />
+	<house name="" houseid="134" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="1" />
+	<house name="" houseid="135" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="3" />
+	<house name="" houseid="136" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="0" />
+	<house name="" houseid="138" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="0" />
+	<house name="" houseid="139" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="0" />
+	<house name="" houseid="140" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="0" />
+	<house name="" houseid="141" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="0" />
+	<house name="" houseid="142" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="0" />
+	<house name="" houseid="143" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="0" />
+	<house name="Saffron House #01" houseid="494" entryx="1001" entryy="977" entryz="7" rent="0" townid="1" size="294" />
+	<house name="Saffron House #02" houseid="495" entryx="999" entryy="992" entryz="7" rent="0" townid="1" size="24" />
+	<house name="Saffron House #03" houseid="496" entryx="996" entryy="1000" entryz="7" rent="0" townid="1" size="16" />
+	<house name="Saffron House #04" houseid="497" entryx="1005" entryy="1011" entryz="7" rent="0" townid="1" size="42" />
+	<house name="Saffron House #05" houseid="498" entryx="1005" entryy="1018" entryz="7" rent="0" townid="1" size="107" />
+	<house name="Saffron House #06" houseid="499" entryx="1000" entryy="1036" entryz="7" rent="0" townid="1" size="49" />
+	<house name="Saffron House #07" houseid="500" entryx="1021" entryy="976" entryz="7" rent="0" townid="1" size="91" />
+	<house name="Saffron House #08" houseid="501" entryx="1021" entryy="985" entryz="7" rent="0" townid="1" size="91" />
+	<house name="Saffron House #09" houseid="502" entryx="1021" entryy="991" entryz="7" rent="0" townid="1" size="84" />
+	<house name="Saffron House #10" houseid="503" entryx="1016" entryy="993" entryz="5" rent="0" townid="1" size="84" />
+	<house name="Saffron House #11" houseid="504" entryx="1027" entryy="976" entryz="7" rent="0" townid="1" size="35" />
+	<house name="Saffron House #12" houseid="505" entryx="1032" entryy="984" entryz="7" rent="0" townid="1" size="91" />
+	<house name="Saffron House #13" houseid="506" entryx="1032" entryy="989" entryz="7" rent="0" townid="1" size="95" />
+	<house name="Saffron House #14" houseid="507" entryx="1050" entryy="974" entryz="7" rent="0" townid="1" size="45" />
+	<house name="Saffron House #15" houseid="508" entryx="1058" entryy="974" entryz="7" rent="0" townid="1" size="20" />
+	<house name="Saffron House #16" houseid="509" entryx="1069" entryy="974" entryz="7" rent="0" townid="1" size="50" />
+	<house name="Saffron House #17" houseid="510" entryx="1044" entryy="970" entryz="6" rent="0" townid="1" size="216" />
+	<house name="Saffron House #18" houseid="511" entryx="1051" entryy="985" entryz="7" rent="0" townid="1" size="36" />
+	<house name="Saffron House #19" houseid="512" entryx="1051" entryy="992" entryz="7" rent="0" townid="1" size="42" />
+	<house name="Saffron House #20" houseid="513" entryx="1053" entryy="989" entryz="7" rent="0" townid="1" size="72" />
+	<house name="Saffron House #21" houseid="514" entryx="1051" entryy="989" entryz="6" rent="0" townid="1" size="72" />
+	<house name="Saffron House #22" houseid="515" entryx="1053" entryy="985" entryz="6" rent="0" townid="1" size="36" />
+	<house name="Saffron House #23" houseid="516" entryx="1053" entryy="992" entryz="6" rent="0" townid="1" size="42" />
+	<house name="Saffron House #24" houseid="517" entryx="1051" entryy="985" entryz="5" rent="0" townid="1" size="36" />
+	<house name="Saffron House #25" houseid="518" entryx="1051" entryy="993" entryz="5" rent="0" townid="1" size="42" />
+	<house name="Saffron House #26" houseid="519" entryx="1053" entryy="994" entryz="5" rent="0" townid="1" size="30" />
+	<house name="Saffron House #27" houseid="520" entryx="1053" entryy="988" entryz="5" rent="0" townid="1" size="41" />
+	<house name="Saffron House #28" houseid="521" entryx="1052" entryy="986" entryz="4" rent="0" townid="1" size="45" />
+	<house name="Saffron House #29" houseid="522" entryx="1053" entryy="991" entryz="4" rent="0" townid="1" size="78" />
+	<house name="Saffron House #30" houseid="523" entryx="1054" entryy="988" entryz="4" rent="0" townid="1" size="40" />
+	<house name="Saffron House #31" houseid="524" entryx="1064" entryy="993" entryz="6" rent="0" townid="1" size="63" />
+	<house name="Saffron House #32" houseid="525" entryx="1063" entryy="1008" entryz="7" rent="0" townid="1" size="103" />
+	<house name="Saffron House #33" houseid="526" entryx="1063" entryy="1022" entryz="7" rent="0" townid="1" size="74" />
+	<house name="Saffron House #34" houseid="527" entryx="1063" entryy="1039" entryz="7" rent="0" townid="1" size="28" />
+	<house name="Saffron House #35" houseid="528" entryx="1058" entryy="1037" entryz="7" rent="0" townid="1" size="30" />
+	<house name="Saffron House #36" houseid="529" entryx="1054" entryy="1026" entryz="7" rent="0" townid="1" size="25" />
+	<house name="Saffron House #37" houseid="530" entryx="1049" entryy="1026" entryz="7" rent="0" townid="1" size="218" />
+	<house name="Saffron House #38" houseid="531" entryx="1044" entryy="1021" entryz="7" rent="0" townid="1" size="48" />
+	<house name="Saffron House #39" houseid="532" entryx="1058" entryy="1008" entryz="7" rent="0" townid="1" size="87" />
+	<house name="Saffron House #40" houseid="533" entryx="1054" entryy="1021" entryz="7" rent="0" townid="1" size="42" />
+	<house name="Saffron House #41" houseid="534" entryx="1045" entryy="1016" entryz="6" rent="0" townid="1" size="63" />
+	<house name="Saffron House #42" houseid="535" entryx="1053" entryy="1016" entryz="6" rent="0" townid="1" size="163" />
+	<house name="Unnamed House #536" houseid="536" entryx="998" entryy="863" entryz="7" rent="0" townid="2" size="114" />
+	<house name="Unnamed House #537" houseid="537" entryx="1008" entryy="863" entryz="7" rent="0" townid="2" size="55" />
+	<house name="Unnamed House #539" houseid="539" entryx="1022" entryy="867" entryz="7" rent="0" townid="2" size="24" />
+	<house name="Unnamed House #540" houseid="540" entryx="1026" entryy="862" entryz="7" rent="0" townid="2" size="66" />
+	<house name="Unnamed House #541" houseid="541" entryx="1044" entryy="866" entryz="7" rent="0" townid="2" size="132" />
+	<house name="Unnamed House #542" houseid="542" entryx="1056" entryy="856" entryz="7" rent="0" townid="2" size="40" />
+	<house name="Unnamed House #543" houseid="543" entryx="1063" entryy="849" entryz="7" rent="0" townid="2" size="21" />
+	<house name="Unnamed House #544" houseid="544" entryx="1046" entryy="847" entryz="7" rent="0" townid="2" size="21" />
+	<house name="Unnamed House #545" houseid="545" entryx="1044" entryy="844" entryz="7" rent="0" townid="2" size="21" />
+	<house name="Unnamed House #546" houseid="546" entryx="1044" entryy="844" entryz="6" rent="0" townid="2" size="21" />
+	<house name="Unnamed House #547" houseid="547" entryx="1046" entryy="846" entryz="6" rent="0" townid="2" size="24" />
+	<house name="Unnamed House #548" houseid="548" entryx="1042" entryy="843" entryz="5" rent="0" townid="2" size="22" />
+	<house name="Unnamed House #549" houseid="549" entryx="1048" entryy="843" entryz="5" rent="0" townid="2" size="22" />
+	<house name="Unnamed House #550" houseid="550" entryx="1030" entryy="851" entryz="7" rent="0" townid="2" size="89" />
+	<house name="Unnamed House #551" houseid="551" entryx="1016" entryy="859" entryz="7" rent="0" townid="2" size="43" />
+	<house name="Unnamed House #552" houseid="552" entryx="1006" entryy="853" entryz="7" rent="0" townid="2" size="43" />
+	<house name="Unnamed House #553" houseid="553" entryx="1001" entryy="856" entryz="7" rent="0" townid="2" size="70" />
+	<house name="Unnamed House #554" houseid="554" entryx="985" entryy="853" entryz="7" rent="0" townid="2" size="171" />
+	<house name="Unnamed House #555" houseid="555" entryx="979" entryy="835" entryz="7" rent="0" townid="2" size="50" />
+	<house name="Unnamed House #556" houseid="556" entryx="985" entryy="835" entryz="7" rent="0" townid="2" size="25" />
+	<house name="Unnamed House #557" houseid="557" entryx="993" entryy="843" entryz="7" rent="0" townid="2" size="25" />
+	<house name="Unnamed House #558" houseid="558" entryx="1011" entryy="834" entryz="7" rent="0" townid="2" size="25" />
+	<house name="Unnamed House #559" houseid="559" entryx="1011" entryy="838" entryz="7" rent="0" townid="2" size="25" />
+	<house name="Unnamed House #560" houseid="560" entryx="998" entryy="834" entryz="7" rent="0" townid="2" size="53" />
+	<house name="Unnamed House #561" houseid="561" entryx="1033" entryy="816" entryz="7" rent="0" townid="2" size="49" />
+	<house name="Unnamed House #562" houseid="562" entryx="1035" entryy="812" entryz="7" rent="0" townid="2" size="103" />
+	<house name="Unnamed House #563" houseid="563" entryx="1036" entryy="813" entryz="7" rent="0" townid="2" size="42" />
+	<house name="Unnamed House #564" houseid="564" entryx="986" entryy="810" entryz="6" rent="0" townid="2" size="195" />
+</houses>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Diglett" nameDescription="a diglett" race="ground" experience="100" speed="212" manacost="0">
+    <health now="400" max="400"/>
+    <look type="82" corpse="11860"/>
+    <targetchange interval="2000" chance="0"/>
+    <strategy attack="100" defense="0"/>
+    <flags>
+        <flag summonable="1"/>
+        <flag attackable="1"/>
+        <flag hostile="1"/>
+        <flag illusionable="1"/>
+        <flag convinceable="1"/>
+        <flag pushable="1"/>
+        <flag canpushitems="0"/>
+        <flag canpushcreatures="0"/>
+        <flag targetdistance="1"/>
+        <flag staticattack="97"/>
+        <flag runonhealth="0"/>
+    </flags>
+	<status>
+		<poke HP="10"/>
+		<poke Attack="55"/>
+		<poke Defense="25"/>
+		<poke SpAtk="35"/>
+		<poke SpDef="45"/>
+		<poke Speed="95"/>
+		<poke type1="ground"/>
+		<poke type2="no type"/>
+	</status>
+    <attacks>
+		<attack name="melee" interval="2000" chance="100" range="1" min="-50" max="-100"/>
+		<attack name="Sand Attack" interval="1701" chance="20" range="6"/>
+		<attack name="Slash" interval="1652" chance="30" range="1"/>
+		<attack name="Mud Shot" interval="1703" chance="20" range="6"/>
+		<attack name="Mud Slap" interval="1754" chance="15" range="6"/>
+		<attack name="Earth Power" interval="2405" chance="8" range="6"/>
+    </attacks>
+    <defenses armor="0" defense="0"/>
+    <voices interval="5000" chance="10">
+        <voice sentence="DIGLETT!"/>
+    </voices>
+    <loot>
+    </loot>
+    <script>
+        <event name="Spawn"/>
+    </script>
+</monster>
