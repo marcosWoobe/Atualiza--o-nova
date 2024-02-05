@@ -5904,7 +5904,7 @@ done
 # check for boost::unordered_set
 for ac_header in boost/unordered_set.hpp
 do :
-  ac_fn_cxx_check_header_mongrel "$LINENO" "boost/tr1/unordered_set.hpp" "ac_cv_header_boost_tr1_unordered_set_hpp" "$ac_includes_default"
+  ac_fn_cxx_check_header_mongrel "$LINENO" "boost/unordered_set.hpp" "ac_cv_header_boost_tr1_unordered_set_hpp" "$ac_includes_default"
 if test "x$ac_cv_header_boost_tr1_unordered_set_hpp" = xyes; then :
   cat >>confdefs.h <<_ACEOF
 #define HAVE_BOOST_TR1_UNORDERED_SET_HPP 1

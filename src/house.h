@@ -20,7 +20,7 @@
 #include "otsystem.h"
 
 #include <boost/regex.hpp>
-#include <boost/tr1/unordered_set.hpp>
+#include <boost/unordered_set.hpp>
 
 #include "position.h"
 #include "housetile.h"
