@@ -118,7 +118,7 @@ bool TalkActions::onPlayerSay(Creature* creature, uint16_t channelId, const std:
     if(p->isTvWatching())
       return false;
        
-	std::string cmdstring[TALKFILTER_LAST] = words, paramstring[TALKFILTER_LAST] = "";
+	std::string cmdstring[TALKFILTER_LAST] = {{words}}, paramstring[TALKFILTER_LAST] = {{""}};
 	size_t loc = words.find('"', 0);
 	if(loc != std::string::npos && loc >= 0)
 	{
