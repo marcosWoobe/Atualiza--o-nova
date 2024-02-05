@@ -7,7 +7,7 @@
 /* Define to 1 if you have the <boost/asio.hpp> header file. */
 #define HAVE_BOOST_ASIO_HPP 1
 
-/* Define to 1 if you have the <boost/tr1/unordered_set.hpp> header file. */
+/* Define to 1 if you have the <boost/unordered_set.hpp> header file. */
 #define HAVE_BOOST_TR1_UNORDERED_SET_HPP 1
 
 /* Define to 1 if you have the `floor' function. */

@@ -1572,15 +1572,15 @@ configure:5891: $? = 0
 configure:5891: result: yes
 configure:5891: checking for boost/asio.hpp
 configure:5891: result: yes
-configure:5907: checking boost/tr1/unordered_set.hpp usability
+configure:5907: checking boost/unordered_set.hpp usability
 configure:5907: g++ -c -g -O2  conftest.cpp >&5
 configure:5907: $? = 0
 configure:5907: result: yes
-configure:5907: checking boost/tr1/unordered_set.hpp presence
+configure:5907: checking boost/unordered_set.hpp presence
 configure:5907: g++ -E  conftest.cpp
 configure:5907: $? = 0
 configure:5907: result: yes
-configure:5907: checking for boost/tr1/unordered_set.hpp
+configure:5907: checking for boost/unordered_set.hpp
 configure:5907: result: yes
 configure:5975: checking for pkg-config
 configure:5993: found /usr/bin/pkg-config
