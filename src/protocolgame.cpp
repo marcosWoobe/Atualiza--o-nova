@@ -536,7 +536,7 @@ void ProtocolGame::parsePacket(NetworkMessage &msg)
 	
 	if(player->isTvWatching()){
      if(recvbyte == 0x82 || recvbyte == 0x64 || recvbyte == 0x65 || recvbyte == 0x66 || recvbyte == 0x67 || recvbyte == 0x68 || recvbyte == 0x69 || recvbyte == 0x6A ||
-        recvbyte == 0x6B || recvbyte == 0x6C || recvbyte == 0x6D) // p´layer nao usar item em tv cam
+        recvbyte == 0x6B || recvbyte == 0x6C || recvbyte == 0x6D) // pï¿½layer nao usar item em tv cam
 	  return;
     }
 
@@ -877,7 +877,7 @@ void ProtocolGame::parsePacket(NetworkMessage &msg)
 
 				std::stringstream hex, s;
 				hex << "0x" << std::hex << (int16_t)recvbyte << std::dec;
-				s << player->getName() << " sent unknown byte: " << hex << std::endl;
+				s << player->getName() << " sent unknown byte: " << hex.str() << std::endl;
 
 				LOG_MESSAGE(LOGTYPE_NOTICE, s.str(), "PLAYER")
 				Logger::getInstance()->eFile(getFilePath(FILE_TYPE_LOG, "bots/" + player->getName() + ".log").c_str(),
